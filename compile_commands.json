@@ -1,0 +1,3712 @@
+[
+    {
+        "arguments": [
+            "c++", 
+            "-c", 
+            "-DGMPRATIONAL", 
+            "-Wuninitialized", 
+            "-fno-omit-frame-pointer", 
+            "-O2", 
+            "-g", 
+            "-std=c++11",
+            "-stdlib=libc++", 
+            "-g", 
+            "-o", 
+            "src/app_scarfcomplex.o", 
+            "src/app_scarfcomplex.cpp"
+        ], 
+        "directory": "/home/ralf/gfan0.6", 
+        "file": "src/app_scarfcomplex.cpp"
+    }, 
+    {
+        "arguments": [
+            "c++", 
+            "-c", 
+            "-DGMPRATIONAL", 
+            "-Wuninitialized", 
+            "-fno-omit-frame-pointer", 
+            "-O2", 
+            "-g", 
+            "-std=c++0x", "-stdlib=libc++", 
+            "-g", 
+            "-o", 
+            "src/subspace.o", 
+            "src/subspace.cpp"
+        ], 
+        "directory": "/home/ralf/gfan0.6", 
+        "file": "src/subspace.cpp"
+    }, 
+    {
+        "arguments": [
+            "c++", 
+            "-c", 
+            "-DGMPRATIONAL", 
+            "-Wuninitialized", 
+            "-fno-omit-frame-pointer", 
+            "-O2", 
+            "-g", 
+            "-std=c++0x", "-stdlib=libc++", 
+            "-g", 
+            "-o", 
+            "src/app_realroots.o", 
+            "src/app_realroots.cpp"
+        ], 
+        "directory": "/home/ralf/gfan0.6", 
+        "file": "src/app_realroots.cpp"
+    }, 
+    {
+        "arguments": [
+            "c++", 
+            "-c", 
+            "-DGMPRATIONAL", 
+            "-Wuninitialized", 
+            "-fno-omit-frame-pointer", 
+            "-O2", 
+            "-g", 
+            "-std=c++0x", "-stdlib=libc++", 
+            "-g", 
+            "-o", 
+            "src/app_scarfisgeneric.o", 
+            "src/app_scarfisgeneric.cpp"
+        ], 
+        "directory": "/home/ralf/gfan0.6", 
+        "file": "src/app_scarfisgeneric.cpp"
+    }, 
+    {
+        "arguments": [
+            "c++", 
+            "-c", 
+            "-DGMPRATIONAL", 
+            "-Wuninitialized", 
+            "-fno-omit-frame-pointer", 
+            "-O2", 
+            "-g", 
+            "-std=c++0x", "-stdlib=libc++", 
+            "-g", 
+            "-o", 
+            "src/app_ismarkedgroebnerbasis.o", 
+            "src/app_ismarkedgroebnerbasis.cpp"
+        ], 
+        "directory": "/home/ralf/gfan0.6", 
+        "file": "src/app_ismarkedgroebnerbasis.cpp"
+    }, 
+    {
+        "arguments": [
+            "c++", 
+            "-c", 
+            "-DGMPRATIONAL", 
+            "-Wuninitialized", 
+            "-fno-omit-frame-pointer", 
+            "-O2", 
+            "-g", 
+            "-std=c++0x", "-stdlib=libc++", 
+            "-g", 
+            "-o", 
+            "src/app_tropicalintersection.o", 
+            "src/app_tropicalintersection.cpp"
+        ], 
+        "directory": "/home/ralf/gfan0.6", 
+        "file": "src/app_tropicalintersection.cpp"
+    }, 
+    {
+        "arguments": [
+            "c++", 
+            "-c", 
+            "-DGMPRATIONAL", 
+            "-Wuninitialized", 
+            "-fno-omit-frame-pointer", 
+            "-O2", 
+            "-g", 
+            "-std=c++0x", "-stdlib=libc++", 
+            "-g", 
+            "-o", 
+            "src/latticeideal.o", 
+            "src/latticeideal.cpp"
+        ], 
+        "directory": "/home/ralf/gfan0.6", 
+        "file": "src/latticeideal.cpp"
+    }, 
+    {
+        "arguments": [
+            "c++", 
+            "-c", 
+            "-DGMPRATIONAL", 
+            "-Wuninitialized", 
+            "-fno-omit-frame-pointer", 
+            "-O2", 
+            "-g", 
+            "-std=c++0x", "-stdlib=libc++", 
+            "-g", 
+            "-o", 
+            "src/app_resultantfan.o", 
+            "src/app_resultantfan.cpp"
+        ], 
+        "directory": "/home/ralf/gfan0.6", 
+        "file": "src/app_resultantfan.cpp"
+    }, 
+    {
+        "arguments": [
+            "c++", 
+            "-c", 
+            "-DGMPRATIONAL", 
+            "-Wuninitialized", 
+            "-fno-omit-frame-pointer", 
+            "-O2", 
+            "-g", 
+            "-std=c++0x", "-stdlib=libc++", 
+            "-g", 
+            "-o", 
+            "src/polyhedralfan.o", 
+            "src/polyhedralfan.cpp"
+        ], 
+        "directory": "/home/ralf/gfan0.6", 
+        "file": "src/polyhedralfan.cpp"
+    }, 
+    {
+        "arguments": [
+            "c++", 
+            "-c", 
+            "-DGMPRATIONAL", 
+            "-Wuninitialized", 
+            "-fno-omit-frame-pointer", 
+            "-O2", 
+            "-g", 
+            "-std=c++0x", "-stdlib=libc++", 
+            "-g", 
+            "-o", 
+            "src/determinant.o", 
+            "src/determinant.cpp"
+        ], 
+        "directory": "/home/ralf/gfan0.6", 
+        "file": "src/determinant.cpp"
+    }, 
+    {
+        "arguments": [
+            "c++", 
+            "-c", 
+            "-DGMPRATIONAL", 
+            "-Wuninitialized", 
+            "-fno-omit-frame-pointer", 
+            "-O2", 
+            "-g", 
+            "-std=c++0x", "-stdlib=libc++", 
+            "-g", 
+            "-o", 
+            "src/gfanlib_traversal.o", 
+            "src/gfanlib_traversal.cpp"
+        ], 
+        "directory": "/home/ralf/gfan0.6", 
+        "file": "src/gfanlib_traversal.cpp"
+    }, 
+    {
+        "arguments": [
+            "c++", 
+            "-c", 
+            "-DGMPRATIONAL", 
+            "-Wuninitialized", 
+            "-fno-omit-frame-pointer", 
+            "-O2", 
+            "-g", 
+            "-std=c++0x", "-stdlib=libc++", 
+            "-g", 
+            "-o", 
+            "src/multiplicity.o", 
+            "src/multiplicity.cpp"
+        ], 
+        "directory": "/home/ralf/gfan0.6", 
+        "file": "src/multiplicity.cpp"
+    }, 
+    {
+        "arguments": [
+            "c++", 
+            "-c", 
+            "-DGMPRATIONAL", 
+            "-Wuninitialized", 
+            "-fno-omit-frame-pointer", 
+            "-O2", 
+            "-g", 
+            "-std=c++0x", "-stdlib=libc++", 
+            "-g", 
+            "-o", 
+            "src/halfopencone.o", 
+            "src/halfopencone.cpp"
+        ], 
+        "directory": "/home/ralf/gfan0.6", 
+        "file": "src/halfopencone.cpp"
+    }, 
+    {
+        "arguments": [
+            "c++", 
+            "-c", 
+            "-DGMPRATIONAL", 
+            "-Wuninitialized", 
+            "-fno-omit-frame-pointer", 
+            "-O2", 
+            "-g", 
+            "-std=c++0x", "-stdlib=libc++", 
+            "-g", 
+            "-o", 
+            "src/symmetry.o", 
+            "src/symmetry.cpp"
+        ], 
+        "directory": "/home/ralf/gfan0.6", 
+        "file": "src/symmetry.cpp"
+    }, 
+    {
+        "arguments": [
+            "c++", 
+            "-c", 
+            "-DGMPRATIONAL", 
+            "-Wuninitialized", 
+            "-fno-omit-frame-pointer", 
+            "-O2", 
+            "-g", 
+            "-std=c++0x", "-stdlib=libc++", 
+            "-g", 
+            "-o", 
+            "src/graph.o", 
+            "src/graph.cpp"
+        ], 
+        "directory": "/home/ralf/gfan0.6", 
+        "file": "src/graph.cpp"
+    }, 
+    {
+        "arguments": [
+            "c++", 
+            "-c", 
+            "-DGMPRATIONAL", 
+            "-Wuninitialized", 
+            "-fno-omit-frame-pointer", 
+            "-O2", 
+            "-g", 
+            "-std=c++0x", "-stdlib=libc++", 
+            "-g", 
+            "-o", 
+            "src/myassert.o", 
+            "src/myassert.cpp"
+        ], 
+        "directory": "/home/ralf/gfan0.6", 
+        "file": "src/myassert.cpp"
+    }, 
+    {
+        "arguments": [
+            "c++", 
+            "-c", 
+            "-DGMPRATIONAL", 
+            "-Wuninitialized", 
+            "-fno-omit-frame-pointer", 
+            "-O2", 
+            "-g", 
+            "-std=c++0x", "-stdlib=libc++", 
+            "-g", 
+            "-o", 
+            "src/traverser_secondaryfan.o", 
+            "src/traverser_secondaryfan.cpp"
+        ], 
+        "directory": "/home/ralf/gfan0.6", 
+        "file": "src/traverser_secondaryfan.cpp"
+    }, 
+    {
+        "arguments": [
+            "c++", 
+            "-c", 
+            "-DGMPRATIONAL", 
+            "-Wuninitialized", 
+            "-fno-omit-frame-pointer", 
+            "-O2", 
+            "-g", 
+            "-std=c++0x", "-stdlib=libc++", 
+            "-g", 
+            "-o", 
+            "src/app_initialforms.o", 
+            "src/app_initialforms.cpp"
+        ], 
+        "directory": "/home/ralf/gfan0.6", 
+        "file": "src/app_initialforms.cpp"
+    }, 
+    {
+        "arguments": [
+            "c++", 
+            "-c", 
+            "-DGMPRATIONAL", 
+            "-Wuninitialized", 
+            "-fno-omit-frame-pointer", 
+            "-O2", 
+            "-g", 
+            "-std=c++0x", "-stdlib=libc++", 
+            "-g", 
+            "-o", 
+            "src/app_substitute.o", 
+            "src/app_substitute.cpp"
+        ], 
+        "directory": "/home/ralf/gfan0.6", 
+        "file": "src/app_substitute.cpp"
+    }, 
+    {
+        "arguments": [
+            "c++", 
+            "-c", 
+            "-DGMPRATIONAL", 
+            "-Wuninitialized", 
+            "-fno-omit-frame-pointer", 
+            "-O2", 
+            "-g", 
+            "-std=c++0x", "-stdlib=libc++", 
+            "-g", 
+            "-o", 
+            "src/app_librarytest.o", 
+            "src/app_librarytest.cpp"
+        ], 
+        "directory": "/home/ralf/gfan0.6", 
+        "file": "src/app_librarytest.cpp"
+    }, 
+    {
+        "arguments": [
+            "c++", 
+            "-c", 
+            "-DGMPRATIONAL", 
+            "-Wuninitialized", 
+            "-fno-omit-frame-pointer", 
+            "-O2", 
+            "-g", 
+            "-std=c++0x", "-stdlib=libc++", 
+            "-g", 
+            "-o", 
+            "src/substitute.o", 
+            "src/substitute.cpp"
+        ], 
+        "directory": "/home/ralf/gfan0.6", 
+        "file": "src/substitute.cpp"
+    }, 
+    {
+        "arguments": [
+            "c++", 
+            "-c", 
+            "-DGMPRATIONAL", 
+            "-Wuninitialized", 
+            "-fno-omit-frame-pointer", 
+            "-O2", 
+            "-g", 
+            "-std=c++0x", "-stdlib=libc++", 
+            "-g", 
+            "-o", 
+            "src/app_product.o", 
+            "src/app_product.cpp"
+        ], 
+        "directory": "/home/ralf/gfan0.6", 
+        "file": "src/app_product.cpp"
+    }, 
+    {
+        "arguments": [
+            "c++", 
+            "-c", 
+            "-DGMPRATIONAL", 
+            "-Wuninitialized", 
+            "-fno-omit-frame-pointer", 
+            "-O2", 
+            "-g", 
+            "-std=c++0x", "-stdlib=libc++", 
+            "-g", 
+            "-o", 
+            "src/field_zmodpz.o", 
+            "src/field_zmodpz.cpp"
+        ], 
+        "directory": "/home/ralf/gfan0.6", 
+        "file": "src/field_zmodpz.cpp"
+    }, 
+    {
+        "arguments": [
+            "c++", 
+            "-c", 
+            "-DGMPRATIONAL", 
+            "-Wuninitialized", 
+            "-fno-omit-frame-pointer", 
+            "-O2", 
+            "-g", 
+            "-std=c++0x", "-stdlib=libc++", 
+            "-g", 
+            "-o", 
+            "src/app_tropicalstartingcone.o", 
+            "src/app_tropicalstartingcone.cpp"
+        ], 
+        "directory": "/home/ralf/gfan0.6", 
+        "file": "src/app_tropicalstartingcone.cpp"
+    }, 
+    {
+        "arguments": [
+            "c++", 
+            "-c", 
+            "-DGMPRATIONAL", 
+            "-Wuninitialized", 
+            "-fno-omit-frame-pointer", 
+            "-O2", 
+            "-g", 
+            "-std=c++0x", "-stdlib=libc++", 
+            "-g", 
+            "-o", 
+            "src/field_rationalfunctions2.o", 
+            "src/field_rationalfunctions2.cpp"
+        ], 
+        "directory": "/home/ralf/gfan0.6", 
+        "file": "src/field_rationalfunctions2.cpp"
+    }, 
+    {
+        "arguments": [
+            "c++", 
+            "-c", 
+            "-DGMPRATIONAL", 
+            "-Wuninitialized", 
+            "-fno-omit-frame-pointer", 
+            "-O2", 
+            "-g", 
+            "-std=c++0x", "-stdlib=libc++", 
+            "-g", 
+            "-o", 
+            "src/app_tolatex.o", 
+            "src/app_tolatex.cpp"
+        ], 
+        "directory": "/home/ralf/gfan0.6", 
+        "file": "src/app_tolatex.cpp"
+    }, 
+    {
+        "arguments": [
+            "c++", 
+            "-c", 
+            "-DGMPRATIONAL", 
+            "-Wuninitialized", 
+            "-fno-omit-frame-pointer", 
+            "-O2", 
+            "-g", 
+            "-std=c++0x", "-stdlib=libc++", 
+            "-g", 
+            "-o", 
+            "src/breadthfirstsearch.o", 
+            "src/breadthfirstsearch.cpp"
+        ], 
+        "directory": "/home/ralf/gfan0.6", 
+        "file": "src/breadthfirstsearch.cpp"
+    }, 
+    {
+        "arguments": [
+            "c++", 
+            "-c", 
+            "-DGMPRATIONAL", 
+            "-Wuninitialized", 
+            "-fno-omit-frame-pointer", 
+            "-O2", 
+            "-g", 
+            "-std=c++0x", "-stdlib=libc++", 
+            "-g", 
+            "-o", 
+            "src/app_regularsubdivision.o", 
+            "src/app_regularsubdivision.cpp"
+        ], 
+        "directory": "/home/ralf/gfan0.6", 
+        "file": "src/app_regularsubdivision.cpp"
+    }, 
+    {
+        "arguments": [
+            "c++", 
+            "-c", 
+            "-DGMPRATIONAL", 
+            "-Wuninitialized", 
+            "-fno-omit-frame-pointer", 
+            "-O2", 
+            "-g", 
+            "-std=c++0x", "-stdlib=libc++", 
+            "-g", 
+            "-o", 
+            "src/printer.o", 
+            "src/printer.cpp"
+        ], 
+        "directory": "/home/ralf/gfan0.6", 
+        "file": "src/printer.cpp"
+    }, 
+    {
+        "arguments": [
+            "c++", 
+            "-c", 
+            "-DGMPRATIONAL", 
+            "-Wuninitialized", 
+            "-fno-omit-frame-pointer", 
+            "-O2", 
+            "-g", 
+            "-std=c++0x", "-stdlib=libc++", 
+            "-g", 
+            "-o", 
+            "src/app_renderstaircase.o", 
+            "src/app_renderstaircase.cpp"
+        ], 
+        "directory": "/home/ralf/gfan0.6", 
+        "file": "src/app_renderstaircase.cpp"
+    }, 
+    {
+        "arguments": [
+            "c++", 
+            "-c", 
+            "-DGMPRATIONAL", 
+            "-Wuninitialized", 
+            "-fno-omit-frame-pointer", 
+            "-O2", 
+            "-g", 
+            "-std=c++0x", "-stdlib=libc++", 
+            "-g", 
+            "-o", 
+            "src/polymakefile.o", 
+            "src/polymakefile.cpp"
+        ], 
+        "directory": "/home/ralf/gfan0.6", 
+        "file": "src/polymakefile.cpp"
+    }, 
+    {
+        "arguments": [
+            "c++", 
+            "-c", 
+            "-DGMPRATIONAL", 
+            "-Wuninitialized", 
+            "-fno-omit-frame-pointer", 
+            "-O2", 
+            "-g", 
+            "-std=c++0x", "-stdlib=libc++", 
+            "-g", 
+            "-o", 
+            "src/app_markpolynomialset.o", 
+            "src/app_markpolynomialset.cpp"
+        ], 
+        "directory": "/home/ralf/gfan0.6", 
+        "file": "src/app_markpolynomialset.cpp"
+    }, 
+    {
+        "arguments": [
+            "c++", 
+            "-c", 
+            "-DGMPRATIONAL", 
+            "-Wuninitialized", 
+            "-fno-omit-frame-pointer", 
+            "-O2", 
+            "-g", 
+            "-std=c++0x", "-stdlib=libc++", 
+            "-g", 
+            "-o", 
+            "src/app_tropicalevaluation.o", 
+            "src/app_tropicalevaluation.cpp"
+        ], 
+        "directory": "/home/ralf/gfan0.6", 
+        "file": "src/app_tropicalevaluation.cpp"
+    }, 
+    {
+        "arguments": [
+            "c++", 
+            "-c", 
+            "-DGMPRATIONAL", 
+            "-Wuninitialized", 
+            "-fno-omit-frame-pointer", 
+            "-O2", 
+            "-g", 
+            "-std=c++0x", "-stdlib=libc++", 
+            "-g", 
+            "-o", 
+            "src/app_integergb.o", 
+            "src/app_integergb.cpp"
+        ], 
+        "directory": "/home/ralf/gfan0.6", 
+        "file": "src/app_integergb.cpp"
+    }, 
+    {
+        "arguments": [
+            "c++", 
+            "-c", 
+            "-DGMPRATIONAL", 
+            "-Wuninitialized", 
+            "-fno-omit-frame-pointer", 
+            "-O2", 
+            "-g", 
+            "-std=c++0x", "-stdlib=libc++", 
+            "-g", 
+            "-o", 
+            "src/tropical.o", 
+            "src/tropical.cpp"
+        ], 
+        "directory": "/home/ralf/gfan0.6", 
+        "file": "src/tropical.cpp"
+    }, 
+    {
+        "arguments": [
+            "c++", 
+            "-c", 
+            "-DGMPRATIONAL", 
+            "-Wuninitialized", 
+            "-fno-omit-frame-pointer", 
+            "-O2", 
+            "-g", 
+            "-std=c++0x", "-stdlib=libc++", 
+            "-g", 
+            "-o", 
+            "src/tropicalmap.o", 
+            "src/tropicalmap.cpp"
+        ], 
+        "directory": "/home/ralf/gfan0.6", 
+        "file": "src/tropicalmap.cpp"
+    }, 
+    {
+        "arguments": [
+            "c++", 
+            "-c", 
+            "-DGMPRATIONAL", 
+            "-Wuninitialized", 
+            "-fno-omit-frame-pointer", 
+            "-O2", 
+            "-g", 
+            "-std=c++0x", "-stdlib=libc++", 
+            "-g", 
+            "-o", 
+            "src/app_tropicalmultiplicity.o", 
+            "src/app_tropicalmultiplicity.cpp"
+        ], 
+        "directory": "/home/ralf/gfan0.6", 
+        "file": "src/app_tropicalmultiplicity.cpp"
+    }, 
+    {
+        "arguments": [
+            "c++", 
+            "-c", 
+            "-DGMPRATIONAL", 
+            "-Wuninitialized", 
+            "-fno-omit-frame-pointer", 
+            "-O2", 
+            "-g", 
+            "-std=c++0x", "-stdlib=libc++", 
+            "-g", 
+            "-o", 
+            "src/app_render.o", 
+            "src/app_render.cpp"
+        ], 
+        "directory": "/home/ralf/gfan0.6", 
+        "file": "src/app_render.cpp"
+    }, 
+    {
+        "arguments": [
+            "c++", 
+            "-c", 
+            "-DGMPRATIONAL", 
+            "-Wuninitialized", 
+            "-fno-omit-frame-pointer", 
+            "-O2", 
+            "-g", 
+            "-std=c++0x", "-stdlib=libc++", 
+            "-g", 
+            "-o", 
+            "src/ep_standard.o", 
+            "src/ep_standard.cpp"
+        ], 
+        "directory": "/home/ralf/gfan0.6", 
+        "file": "src/ep_standard.cpp"
+    }, 
+    {
+        "arguments": [
+            "c++", 
+            "-c", 
+            "-DGMPRATIONAL", 
+            "-Wuninitialized", 
+            "-fno-omit-frame-pointer", 
+            "-O2", 
+            "-g", 
+            "-std=c++0x", "-stdlib=libc++", 
+            "-g", 
+            "-o", 
+            "src/app_krulldimension.o", 
+            "src/app_krulldimension.cpp"
+        ], 
+        "directory": "/home/ralf/gfan0.6", 
+        "file": "src/app_krulldimension.cpp"
+    }, 
+    {
+        "arguments": [
+            "c++", 
+            "-c", 
+            "-DGMPRATIONAL", 
+            "-Wuninitialized", 
+            "-fno-omit-frame-pointer", 
+            "-O2", 
+            "-g", 
+            "-std=c++0x", "-stdlib=libc++", 
+            "-g", 
+            "-o", 
+            "src/app_tropicalrank.o", 
+            "src/app_tropicalrank.cpp"
+        ], 
+        "directory": "/home/ralf/gfan0.6", 
+        "file": "src/app_tropicalrank.cpp"
+    }, 
+    {
+        "arguments": [
+            "c++", 
+            "-c", 
+            "-DGMPRATIONAL", 
+            "-Wuninitialized", 
+            "-fno-omit-frame-pointer", 
+            "-O2", 
+            "-g", 
+            "-std=c++0x", "-stdlib=libc++", 
+            "-g", 
+            "-o", 
+            "src/app_commonrefinement.o", 
+            "src/app_commonrefinement.cpp"
+        ], 
+        "directory": "/home/ralf/gfan0.6", 
+        "file": "src/app_commonrefinement.cpp"
+    }, 
+    {
+        "arguments": [
+            "c++", 
+            "-c", 
+            "-DGMPRATIONAL", 
+            "-Wuninitialized", 
+            "-fno-omit-frame-pointer", 
+            "-O2", 
+            "-g", 
+            "-std=c++0x", "-stdlib=libc++", 
+            "-g", 
+            "-o", 
+            "src/log.o", 
+            "src/log.cpp"
+        ], 
+        "directory": "/home/ralf/gfan0.6", 
+        "file": "src/log.cpp"
+    }, 
+    {
+        "arguments": [
+            "c++", 
+            "-c", 
+            "-DGMPRATIONAL", 
+            "-Wuninitialized", 
+            "-fno-omit-frame-pointer", 
+            "-O2", 
+            "-g", 
+            "-std=c++0x", "-stdlib=libc++", 
+            "-g", 
+            "-o", 
+            "src/app_lpsolve.o", 
+            "src/app_lpsolve.cpp"
+        ], 
+        "directory": "/home/ralf/gfan0.6", 
+        "file": "src/app_lpsolve.cpp"
+    }, 
+    {
+        "arguments": [
+            "c++", 
+            "-c", 
+            "-DGMPRATIONAL", 
+            "-Wuninitialized", 
+            "-fno-omit-frame-pointer", 
+            "-O2", 
+            "-g", 
+            "-std=c++0x", "-stdlib=libc++", 
+            "-g", 
+            "-o", 
+            "src/app_scarfvisualize.o", 
+            "src/app_scarfvisualize.cpp"
+        ], 
+        "directory": "/home/ralf/gfan0.6", 
+        "file": "src/app_scarfvisualize.cpp"
+    }, 
+    {
+        "arguments": [
+            "c++", 
+            "-c", 
+            "-DGMPRATIONAL", 
+            "-Wuninitialized", 
+            "-fno-omit-frame-pointer", 
+            "-O2", 
+            "-g", 
+            "-std=c++0x", "-stdlib=libc++", 
+            "-g", 
+            "-o", 
+            "src/app_minimalassociatedprimes.o", 
+            "src/app_minimalassociatedprimes.cpp"
+        ], 
+        "directory": "/home/ralf/gfan0.6", 
+        "file": "src/app_minimalassociatedprimes.cpp"
+    }, 
+    {
+        "arguments": [
+            "c++", 
+            "-c", 
+            "-DGMPRATIONAL", 
+            "-Wuninitialized", 
+            "-fno-omit-frame-pointer", 
+            "-O2", 
+            "-g", 
+            "-std=c++0x", "-stdlib=libc++", 
+            "-g", 
+            "-o", 
+            "src/app_normalfancleanup.o", 
+            "src/app_normalfancleanup.cpp"
+        ], 
+        "directory": "/home/ralf/gfan0.6", 
+        "file": "src/app_normalfancleanup.cpp"
+    }, 
+    {
+        "arguments": [
+            "c++", 
+            "-c", 
+            "-DGMPRATIONAL", 
+            "-Wuninitialized", 
+            "-fno-omit-frame-pointer", 
+            "-O2", 
+            "-g", 
+            "-std=c++0x", "-stdlib=libc++", 
+            "-g", 
+            "-o", 
+            "src/app_latticeideal.o", 
+            "src/app_latticeideal.cpp"
+        ], 
+        "directory": "/home/ralf/gfan0.6", 
+        "file": "src/app_latticeideal.cpp"
+    }, 
+    {
+        "arguments": [
+            "c++", 
+            "-c", 
+            "-DGMPRATIONAL", 
+            "-Wuninitialized", 
+            "-fno-omit-frame-pointer", 
+            "-O2", 
+            "-g", 
+            "-std=c++0x", "-stdlib=libc++", 
+            "-g", 
+            "-o", 
+            "src/tropical2.o", 
+            "src/tropical2.cpp"
+        ], 
+        "directory": "/home/ralf/gfan0.6", 
+        "file": "src/tropical2.cpp"
+    }, 
+    {
+        "arguments": [
+            "c++", 
+            "-c", 
+            "-DGMPRATIONAL", 
+            "-Wuninitialized", 
+            "-fno-omit-frame-pointer", 
+            "-O2", 
+            "-g", 
+            "-std=c++0x", "-stdlib=libc++", 
+            "-g", 
+            "-o", 
+            "src/app_multiplymatrix.o", 
+            "src/app_multiplymatrix.cpp"
+        ], 
+        "directory": "/home/ralf/gfan0.6", 
+        "file": "src/app_multiplymatrix.cpp"
+    }, 
+    {
+        "arguments": [
+            "c++", 
+            "-c", 
+            "-DGMPRATIONAL", 
+            "-Wuninitialized", 
+            "-fno-omit-frame-pointer", 
+            "-O2", 
+            "-g", 
+            "-std=c++0x", "-stdlib=libc++", 
+            "-g", 
+            "-o", 
+            "src/renderer.o", 
+            "src/renderer.cpp"
+        ], 
+        "directory": "/home/ralf/gfan0.6", 
+        "file": "src/renderer.cpp"
+    }, 
+    {
+        "arguments": [
+            "c++", 
+            "-c", 
+            "-DGMPRATIONAL", 
+            "-Wuninitialized", 
+            "-fno-omit-frame-pointer", 
+            "-O2", 
+            "-g", 
+            "-std=c++0x", "-stdlib=libc++", 
+            "-g", 
+            "-o", 
+            "src/app_matrixproduct.o", 
+            "src/app_matrixproduct.cpp"
+        ], 
+        "directory": "/home/ralf/gfan0.6", 
+        "file": "src/app_matrixproduct.cpp"
+    }, 
+    {
+        "arguments": [
+            "c++", 
+            "-c", 
+            "-DGMPRATIONAL", 
+            "-Wuninitialized", 
+            "-fno-omit-frame-pointer", 
+            "-O2", 
+            "-g", 
+            "-std=c++0x", "-stdlib=libc++", 
+            "-g", 
+            "-o", 
+            "src/app_tropicalweildivisor.o", 
+            "src/app_tropicalweildivisor.cpp"
+        ], 
+        "directory": "/home/ralf/gfan0.6", 
+        "file": "src/app_tropicalweildivisor.cpp"
+    }, 
+    {
+        "arguments": [
+            "c++", 
+            "-c", 
+            "-DGMPRATIONAL", 
+            "-Wuninitialized", 
+            "-fno-omit-frame-pointer", 
+            "-O2", 
+            "-g", 
+            "-std=c++0x", "-stdlib=libc++", 
+            "-g", 
+            "-o", 
+            "src/linalgfloat.o", 
+            "src/linalgfloat.cpp"
+        ], 
+        "directory": "/home/ralf/gfan0.6", 
+        "file": "src/linalgfloat.cpp"
+    }, 
+    {
+        "arguments": [
+            "c++", 
+            "-c", 
+            "-DGMPRATIONAL", 
+            "-Wuninitialized", 
+            "-fno-omit-frame-pointer", 
+            "-O2", 
+            "-g", 
+            "-std=c++0x", "-stdlib=libc++", 
+            "-g", 
+            "-o", 
+            "src/app_fiberpolytope.o", 
+            "src/app_fiberpolytope.cpp"
+        ], 
+        "directory": "/home/ralf/gfan0.6", 
+        "file": "src/app_fiberpolytope.cpp"
+    }, 
+    {
+        "arguments": [
+            "c++", 
+            "-c", 
+            "-DGMPRATIONAL", 
+            "-Wuninitialized", 
+            "-fno-omit-frame-pointer", 
+            "-O2", 
+            "-g", 
+            "-std=c++0x", "-stdlib=libc++", 
+            "-g", 
+            "-o", 
+            "src/app_groebnerfan.o", 
+            "src/app_groebnerfan.cpp"
+        ], 
+        "directory": "/home/ralf/gfan0.6", 
+        "file": "src/app_groebnerfan.cpp"
+    }, 
+    {
+        "arguments": [
+            "c++", 
+            "-c", 
+            "-DGMPRATIONAL", 
+            "-Wuninitialized", 
+            "-fno-omit-frame-pointer", 
+            "-O2", 
+            "-g", 
+            "-std=c++0x", "-stdlib=libc++", 
+            "-g", 
+            "-o", 
+            "src/traverser_groebnerfan.o", 
+            "src/traverser_groebnerfan.cpp"
+        ], 
+        "directory": "/home/ralf/gfan0.6", 
+        "file": "src/traverser_groebnerfan.cpp"
+    }, 
+    {
+        "arguments": [
+            "c++", 
+            "-c", 
+            "-DGMPRATIONAL", 
+            "-Wuninitialized", 
+            "-fno-omit-frame-pointer", 
+            "-O2", 
+            "-g", 
+            "-std=c++0x", "-stdlib=libc++", 
+            "-g", 
+            "-o", 
+            "src/app_polytopealgebra.o", 
+            "src/app_polytopealgebra.cpp"
+        ], 
+        "directory": "/home/ralf/gfan0.6", 
+        "file": "src/app_polytopealgebra.cpp"
+    }, 
+    {
+        "arguments": [
+            "c++", 
+            "-c", 
+            "-DGMPRATIONAL", 
+            "-Wuninitialized", 
+            "-fno-omit-frame-pointer", 
+            "-O2", 
+            "-g", 
+            "-std=c++0x", "-stdlib=libc++", 
+            "-g", 
+            "-o", 
+            "src/app_exponentlattice.o", 
+            "src/app_exponentlattice.cpp"
+        ], 
+        "directory": "/home/ralf/gfan0.6", 
+        "file": "src/app_exponentlattice.cpp"
+    }, 
+    {
+        "arguments": [
+            "c++", 
+            "-c", 
+            "-DGMPRATIONAL", 
+            "-Wuninitialized", 
+            "-fno-omit-frame-pointer", 
+            "-O2", 
+            "-g", 
+            "-std=c++0x", "-stdlib=libc++", 
+            "-g", 
+            "-o", 
+            "src/app_genericlinearchange.o", 
+            "src/app_genericlinearchange.cpp"
+        ], 
+        "directory": "/home/ralf/gfan0.6", 
+        "file": "src/app_genericlinearchange.cpp"
+    }, 
+    {
+        "arguments": [
+            "c++", 
+            "-c", 
+            "-DGMPRATIONAL", 
+            "-Wuninitialized", 
+            "-fno-omit-frame-pointer", 
+            "-O2", 
+            "-g", 
+            "-std=c++0x", "-stdlib=libc++", 
+            "-g", 
+            "-o", 
+            "src/app_doesidealcontain.o", 
+            "src/app_doesidealcontain.cpp"
+        ], 
+        "directory": "/home/ralf/gfan0.6", 
+        "file": "src/app_doesidealcontain.cpp"
+    }, 
+    {
+        "arguments": [
+            "c++", 
+            "-c", 
+            "-DGMPRATIONAL", 
+            "-Wuninitialized", 
+            "-fno-omit-frame-pointer", 
+            "-O2", 
+            "-g", 
+            "-std=c++0x", "-stdlib=libc++", 
+            "-g", 
+            "-o", 
+            "src/app_idealproduct.o", 
+            "src/app_idealproduct.cpp"
+        ], 
+        "directory": "/home/ralf/gfan0.6", 
+        "file": "src/app_idealproduct.cpp"
+    }, 
+    {
+        "arguments": [
+            "c++", 
+            "-c", 
+            "-DGMPRATIONAL", 
+            "-Wuninitialized", 
+            "-fno-omit-frame-pointer", 
+            "-O2", 
+            "-g", 
+            "-std=c++0x", "-stdlib=libc++", 
+            "-g", 
+            "-o", 
+            "src/app_evaluate.o", 
+            "src/app_evaluate.cpp"
+        ], 
+        "directory": "/home/ralf/gfan0.6", 
+        "file": "src/app_evaluate.cpp"
+    }, 
+    {
+        "arguments": [
+            "c++", 
+            "-c", 
+            "-DGMPRATIONAL", 
+            "-Wuninitialized", 
+            "-fno-omit-frame-pointer", 
+            "-O2", 
+            "-g", 
+            "-std=c++0x", "-stdlib=libc++", 
+            "-g", 
+            "-o", 
+            "src/app_tropicalcurve.o", 
+            "src/app_tropicalcurve.cpp"
+        ], 
+        "directory": "/home/ralf/gfan0.6", 
+        "file": "src/app_tropicalcurve.cpp"
+    }, 
+    {
+        "arguments": [
+            "c++", 
+            "-c", 
+            "-DGMPRATIONAL", 
+            "-Wuninitialized", 
+            "-fno-omit-frame-pointer", 
+            "-O2", 
+            "-g", 
+            "-std=c++0x", "-stdlib=libc++", 
+            "-g", 
+            "-o", 
+            "src/polynomial.o", 
+            "src/polynomial.cpp"
+        ], 
+        "directory": "/home/ralf/gfan0.6", 
+        "file": "src/polynomial.cpp"
+    }, 
+    {
+        "arguments": [
+            "c++", 
+            "-c", 
+            "-DGMPRATIONAL", 
+            "-Wuninitialized", 
+            "-fno-omit-frame-pointer", 
+            "-O2", 
+            "-g", 
+            "-std=c++0x", "-stdlib=libc++", 
+            "-g", 
+            "-o", 
+            "src/enumeration.o", 
+            "src/enumeration.cpp"
+        ], 
+        "directory": "/home/ralf/gfan0.6", 
+        "file": "src/enumeration.cpp"
+    }, 
+    {
+        "arguments": [
+            "c++", 
+            "-c", 
+            "-DGMPRATIONAL", 
+            "-Wuninitialized", 
+            "-fno-omit-frame-pointer", 
+            "-O2", 
+            "-g", 
+            "-std=c++0x", "-stdlib=libc++", 
+            "-g", 
+            "-o", 
+            "src/reversesearch.o", 
+            "src/reversesearch.cpp"
+        ], 
+        "directory": "/home/ralf/gfan0.6", 
+        "file": "src/reversesearch.cpp"
+    }, 
+    {
+        "arguments": [
+            "c++", 
+            "-c", 
+            "-DGMPRATIONAL", 
+            "-Wuninitialized", 
+            "-fno-omit-frame-pointer", 
+            "-O2", 
+            "-g", 
+            "-std=c++0x", "-stdlib=libc++", 
+            "-g", 
+            "-o", 
+            "src/traverser_resultantfan.o", 
+            "src/traverser_resultantfan.cpp"
+        ], 
+        "directory": "/home/ralf/gfan0.6", 
+        "file": "src/traverser_resultantfan.cpp"
+    }, 
+    {
+        "arguments": [
+            "c++", 
+            "-c", 
+            "-DGMPRATIONAL", 
+            "-Wuninitialized", 
+            "-fno-omit-frame-pointer", 
+            "-O2", 
+            "-g", 
+            "-std=c++0x", "-stdlib=libc++", 
+            "-g", 
+            "-o", 
+            "src/vektor.o", 
+            "src/vektor.cpp"
+        ], 
+        "directory": "/home/ralf/gfan0.6", 
+        "file": "src/vektor.cpp"
+    }, 
+    {
+        "arguments": [
+            "c++", 
+            "-c", 
+            "-DGMPRATIONAL", 
+            "-Wuninitialized", 
+            "-fno-omit-frame-pointer", 
+            "-O2", 
+            "-g", 
+            "-std=c++0x", "-stdlib=libc++", 
+            "-g", 
+            "-o", 
+            "src/app_isconnected.o", 
+            "src/app_isconnected.cpp"
+        ], 
+        "directory": "/home/ralf/gfan0.6", 
+        "file": "src/app_isconnected.cpp"
+    }, 
+    {
+        "arguments": [
+            "c++", 
+            "-c", 
+            "-DGMPRATIONAL", 
+            "-Wuninitialized", 
+            "-fno-omit-frame-pointer", 
+            "-O2", 
+            "-g", 
+            "-std=c++0x", "-stdlib=libc++", 
+            "-g", 
+            "-o", 
+            "src/app_volume.o", 
+            "src/app_volume.cpp"
+        ], 
+        "directory": "/home/ralf/gfan0.6", 
+        "file": "src/app_volume.cpp"
+    }, 
+    {
+        "arguments": [
+            "c++", 
+            "-c", 
+            "-DGMPRATIONAL", 
+            "-Wuninitialized", 
+            "-fno-omit-frame-pointer", 
+            "-O2", 
+            "-g", 
+            "-std=c++0x", "-stdlib=libc++", 
+            "-g", 
+            "-o", 
+            "src/gfanlib_polyhedralfan.o", 
+            "src/gfanlib_polyhedralfan.cpp"
+        ], 
+        "directory": "/home/ralf/gfan0.6", 
+        "file": "src/gfanlib_polyhedralfan.cpp"
+    }, 
+    {
+        "arguments": [
+            "c++", 
+            "-c", 
+            "-DGMPRATIONAL", 
+            "-Wuninitialized", 
+            "-fno-omit-frame-pointer", 
+            "-O2", 
+            "-g", 
+            "-std=c++0x", "-stdlib=libc++", 
+            "-g", 
+            "-o", 
+            "src/intsinpolytope.o", 
+            "src/intsinpolytope.cpp"
+        ], 
+        "directory": "/home/ralf/gfan0.6", 
+        "file": "src/intsinpolytope.cpp"
+    }, 
+    {
+        "arguments": [
+            "c++", 
+            "-c", 
+            "-DGMPRATIONAL", 
+            "-Wuninitialized", 
+            "-fno-omit-frame-pointer", 
+            "-O2", 
+            "-g", 
+            "-std=c++0x", "-stdlib=libc++", 
+            "-g", 
+            "-o", 
+            "src/termorder.o", 
+            "src/termorder.cpp"
+        ], 
+        "directory": "/home/ralf/gfan0.6", 
+        "file": "src/termorder.cpp"
+    }, 
+    {
+        "arguments": [
+            "c++", 
+            "-c", 
+            "-DGMPRATIONAL", 
+            "-Wuninitialized", 
+            "-fno-omit-frame-pointer", 
+            "-O2", 
+            "-g", 
+            "-std=c++0x", "-stdlib=libc++", 
+            "-g", 
+            "-o", 
+            "src/app_smalessixth2.o", 
+            "src/app_smalessixth2.cpp"
+        ], 
+        "directory": "/home/ralf/gfan0.6", 
+        "file": "src/app_smalessixth2.cpp"
+    }, 
+    {
+        "arguments": [
+            "c++", 
+            "-c", 
+            "-DGMPRATIONAL", 
+            "-Wuninitialized", 
+            "-fno-omit-frame-pointer", 
+            "-O2", 
+            "-g", 
+            "-std=c++0x", "-stdlib=libc++", 
+            "-g", 
+            "-o", 
+            "src/app_homogenize.o", 
+            "src/app_homogenize.cpp"
+        ], 
+        "directory": "/home/ralf/gfan0.6", 
+        "file": "src/app_homogenize.cpp"
+    }, 
+    {
+        "arguments": [
+            "c++", 
+            "-c", 
+            "-DGMPRATIONAL", 
+            "-Wuninitialized", 
+            "-fno-omit-frame-pointer", 
+            "-O2", 
+            "-g", 
+            "-std=c++0x", "-stdlib=libc++", 
+            "-g", 
+            "-o", 
+            "src/app_intsinpolytope.o", 
+            "src/app_intsinpolytope.cpp"
+        ], 
+        "directory": "/home/ralf/gfan0.6", 
+        "file": "src/app_intsinpolytope.cpp"
+    }, 
+    {
+        "arguments": [
+            "c++", 
+            "-c", 
+            "-DGMPRATIONAL", 
+            "-Wuninitialized", 
+            "-fno-omit-frame-pointer", 
+            "-O2", 
+            "-g", 
+            "-std=c++0x", "-stdlib=libc++", 
+            "-g", 
+            "-o", 
+            "src/app_homogeneityspace.o", 
+            "src/app_homogeneityspace.cpp"
+        ], 
+        "directory": "/home/ralf/gfan0.6", 
+        "file": "src/app_homogeneityspace.cpp"
+    }, 
+    {
+        "arguments": [
+            "c++", 
+            "-c", 
+            "-DGMPRATIONAL", 
+            "-Wuninitialized", 
+            "-fno-omit-frame-pointer", 
+            "-O2", 
+            "-g", 
+            "-std=c++0x", "-stdlib=libc++", 
+            "-g", 
+            "-o", 
+            "src/app_minors.o", 
+            "src/app_minors.cpp"
+        ], 
+        "directory": "/home/ralf/gfan0.6", 
+        "file": "src/app_minors.cpp"
+    }, 
+    {
+        "arguments": [
+            "c++", 
+            "-c", 
+            "-DGMPRATIONAL", 
+            "-Wuninitialized", 
+            "-fno-omit-frame-pointer", 
+            "-O2", 
+            "-g", 
+            "-std=c++0x", "-stdlib=libc++", 
+            "-g", 
+            "-o", 
+            "src/tropicaldeterminant.o", 
+            "src/tropicaldeterminant.cpp"
+        ], 
+        "directory": "/home/ralf/gfan0.6", 
+        "file": "src/tropicaldeterminant.cpp"
+    }, 
+    {
+        "arguments": [
+            "c++", 
+            "-c", 
+            "-DGMPRATIONAL", 
+            "-Wuninitialized", 
+            "-fno-omit-frame-pointer", 
+            "-O2", 
+            "-g", 
+            "-std=c++0x", "-stdlib=libc++", 
+            "-g", 
+            "-o", 
+            "src/genericwalk.o", 
+            "src/genericwalk.cpp"
+        ], 
+        "directory": "/home/ralf/gfan0.6", 
+        "file": "src/genericwalk.cpp"
+    }, 
+    {
+        "arguments": [
+            "c++", 
+            "-c", 
+            "-DGMPRATIONAL", 
+            "-Wuninitialized", 
+            "-fno-omit-frame-pointer", 
+            "-O2", 
+            "-g", 
+            "-std=c++0x", "-stdlib=libc++", 
+            "-g", 
+            "-o", 
+            "src/bsptree.o", 
+            "src/bsptree.cpp"
+        ], 
+        "directory": "/home/ralf/gfan0.6", 
+        "file": "src/bsptree.cpp"
+    }, 
+    {
+        "arguments": [
+            "c++", 
+            "-c", 
+            "-DGMPRATIONAL", 
+            "-Wuninitialized", 
+            "-fno-omit-frame-pointer", 
+            "-O2", 
+            "-g", 
+            "-std=c++0x", "-stdlib=libc++", 
+            "-g", 
+            "-o", 
+            "src/gfanlib_mixedvolume.o", 
+            "src/gfanlib_mixedvolume.cpp"
+        ], 
+        "directory": "/home/ralf/gfan0.6", 
+        "file": "src/gfanlib_mixedvolume.cpp"
+    }, 
+    {
+        "arguments": [
+            "c++", 
+            "-c", 
+            "-DGMPRATIONAL", 
+            "-Wuninitialized", 
+            "-fno-omit-frame-pointer", 
+            "-O2", 
+            "-g", 
+            "-std=c++0x", "-stdlib=libc++", 
+            "-g", 
+            "-o", 
+            "src/app_walk.o", 
+            "src/app_walk.cpp"
+        ], 
+        "directory": "/home/ralf/gfan0.6", 
+        "file": "src/app_walk.cpp"
+    }, 
+    {
+        "arguments": [
+            "c++", 
+            "-c", 
+            "-DGMPRATIONAL", 
+            "-Wuninitialized", 
+            "-fno-omit-frame-pointer", 
+            "-O2", 
+            "-g", 
+            "-std=c++0x", "-stdlib=libc++", 
+            "-g", 
+            "-o", 
+            "src/application.o", 
+            "src/application.cpp"
+        ], 
+        "directory": "/home/ralf/gfan0.6", 
+        "file": "src/application.cpp"
+    }, 
+    {
+        "arguments": [
+            "c++", 
+            "-c", 
+            "-DGMPRATIONAL", 
+            "-Wuninitialized", 
+            "-fno-omit-frame-pointer", 
+            "-O2", 
+            "-g", 
+            "-std=c++0x", "-stdlib=libc++", 
+            "-g", 
+            "-o", 
+            "src/tropicalbasis.o", 
+            "src/tropicalbasis.cpp"
+        ], 
+        "directory": "/home/ralf/gfan0.6", 
+        "file": "src/tropicalbasis.cpp"
+    }, 
+    {
+        "arguments": [
+            "c++", 
+            "-c", 
+            "-DGMPRATIONAL", 
+            "-Wuninitialized", 
+            "-fno-omit-frame-pointer", 
+            "-O2", 
+            "-g", 
+            "-std=c++0x", "-stdlib=libc++", 
+            "-g", 
+            "-o", 
+            "src/triangulation.o", 
+            "src/triangulation.cpp"
+        ], 
+        "directory": "/home/ralf/gfan0.6", 
+        "file": "src/triangulation.cpp"
+    }, 
+    {
+        "arguments": [
+            "c++", 
+            "-c", 
+            "-DGMPRATIONAL", 
+            "-Wuninitialized", 
+            "-fno-omit-frame-pointer", 
+            "-O2", 
+            "-g", 
+            "-std=c++0x", "-stdlib=libc++", 
+            "-g", 
+            "-o", 
+            "src/lp_cdd.o", 
+            "src/lp_cdd.cpp"
+        ], 
+        "directory": "/home/ralf/gfan0.6", 
+        "file": "src/lp_cdd.cpp"
+    }, 
+    {
+        "arguments": [
+            "c++", 
+            "-c", 
+            "-DGMPRATIONAL", 
+            "-Wuninitialized", 
+            "-fno-omit-frame-pointer", 
+            "-O2", 
+            "-g", 
+            "-std=c++0x", "-stdlib=libc++", 
+            "-g", 
+            "-o", 
+            "src/app_weightvector.o", 
+            "src/app_weightvector.cpp"
+        ], 
+        "directory": "/home/ralf/gfan0.6", 
+        "file": "src/app_weightvector.cpp"
+    }, 
+    {
+        "arguments": [
+            "c++", 
+            "-c", 
+            "-DGMPRATIONAL", 
+            "-Wuninitialized", 
+            "-fno-omit-frame-pointer", 
+            "-O2", 
+            "-g", 
+            "-std=c++0x", "-stdlib=libc++", 
+            "-g", 
+            "-o", 
+            "src/app_interactive.o", 
+            "src/app_interactive.cpp"
+        ], 
+        "directory": "/home/ralf/gfan0.6", 
+        "file": "src/app_interactive.cpp"
+    }, 
+    {
+        "arguments": [
+            "c++", 
+            "-c", 
+            "-DGMPRATIONAL", 
+            "-Wuninitialized", 
+            "-fno-omit-frame-pointer", 
+            "-O2", 
+            "-g", 
+            "-std=c++0x", "-stdlib=libc++", 
+            "-g", 
+            "-o", 
+            "src/app_transposematrix.o", 
+            "src/app_transposematrix.cpp"
+        ], 
+        "directory": "/home/ralf/gfan0.6", 
+        "file": "src/app_transposematrix.cpp"
+    }, 
+    {
+        "arguments": [
+            "c++", 
+            "-c", 
+            "-DGMPRATIONAL", 
+            "-Wuninitialized", 
+            "-fno-omit-frame-pointer", 
+            "-O2", 
+            "-g", 
+            "-std=c++0x", "-stdlib=libc++", 
+            "-g", 
+            "-o", 
+            "src/ge_gfan.o", 
+            "src/ge_gfan.cpp"
+        ], 
+        "directory": "/home/ralf/gfan0.6", 
+        "file": "src/ge_gfan.cpp"
+    }, 
+    {
+        "arguments": [
+            "c++", 
+            "-c", 
+            "-DGMPRATIONAL", 
+            "-Wuninitialized", 
+            "-fno-omit-frame-pointer", 
+            "-O2", 
+            "-g", 
+            "-std=c++0x", "-stdlib=libc++", 
+            "-g", 
+            "-o", 
+            "src/gfanlib_zcone.o", 
+            "src/gfanlib_zcone.cpp"
+        ], 
+        "directory": "/home/ralf/gfan0.6", 
+        "file": "src/gfanlib_zcone.cpp"
+    }, 
+    {
+        "arguments": [
+            "c++", 
+            "-c", 
+            "-DGMPRATIONAL", 
+            "-Wuninitialized", 
+            "-fno-omit-frame-pointer", 
+            "-O2", 
+            "-g", 
+            "-std=c++0x", "-stdlib=libc++", 
+            "-g", 
+            "-o", 
+            "src/traverser_sphere.o", 
+            "src/traverser_sphere.cpp"
+        ], 
+        "directory": "/home/ralf/gfan0.6", 
+        "file": "src/traverser_sphere.cpp"
+    }, 
+    {
+        "arguments": [
+            "c++", 
+            "-c", 
+            "-DGMPRATIONAL", 
+            "-Wuninitialized", 
+            "-fno-omit-frame-pointer", 
+            "-O2", 
+            "-g", 
+            "-std=c++0x", "-stdlib=libc++", 
+            "-g", 
+            "-o", 
+            "src/app_issmooth.o", 
+            "src/app_issmooth.cpp"
+        ], 
+        "directory": "/home/ralf/gfan0.6", 
+        "file": "src/app_issmooth.cpp"
+    }, 
+    {
+        "arguments": [
+            "c++", 
+            "-c", 
+            "-DGMPRATIONAL", 
+            "-Wuninitialized", 
+            "-fno-omit-frame-pointer", 
+            "-O2", 
+            "-g", 
+            "-std=c++0x", "-stdlib=libc++", 
+            "-g", 
+            "-o", 
+            "src/app_groebnercone.o", 
+            "src/app_groebnercone.cpp"
+        ], 
+        "directory": "/home/ralf/gfan0.6", 
+        "file": "src/app_groebnercone.cpp"
+    }, 
+    {
+        "arguments": [
+            "c++", 
+            "-c", 
+            "-DGMPRATIONAL", 
+            "-Wuninitialized", 
+            "-fno-omit-frame-pointer", 
+            "-O2", 
+            "-g", 
+            "-std=c++0x", "-stdlib=libc++", 
+            "-g", 
+            "-o", 
+            "src/app_randompolynomials.o", 
+            "src/app_randompolynomials.cpp"
+        ], 
+        "directory": "/home/ralf/gfan0.6", 
+        "file": "src/app_randompolynomials.cpp"
+    }, 
+    {
+        "arguments": [
+            "c++", 
+            "-c", 
+            "-DGMPRATIONAL", 
+            "-Wuninitialized", 
+            "-fno-omit-frame-pointer", 
+            "-O2", 
+            "-g", 
+            "-std=c++0x", "-stdlib=libc++", 
+            "-g", 
+            "-o", 
+            "src/app_tropicallifting.o", 
+            "src/app_tropicallifting.cpp"
+        ], 
+        "directory": "/home/ralf/gfan0.6", 
+        "file": "src/app_tropicallifting.cpp"
+    }, 
+    {
+        "arguments": [
+            "c++", 
+            "-c", 
+            "-DGMPRATIONAL", 
+            "-Wuninitialized", 
+            "-fno-omit-frame-pointer", 
+            "-O2", 
+            "-g", 
+            "-std=c++0x", "-stdlib=libc++", 
+            "-g", 
+            "-o", 
+            "src/padic.o", 
+            "src/padic.cpp"
+        ], 
+        "directory": "/home/ralf/gfan0.6", 
+        "file": "src/padic.cpp"
+    }, 
+    {
+        "arguments": [
+            "c++", 
+            "-c", 
+            "-DGMPRATIONAL", 
+            "-Wuninitialized", 
+            "-fno-omit-frame-pointer", 
+            "-O2", 
+            "-g", 
+            "-std=c++0x", "-stdlib=libc++", 
+            "-g", 
+            "-o", 
+            "src/traverser_stableintersection.o", 
+            "src/traverser_stableintersection.cpp"
+        ], 
+        "directory": "/home/ralf/gfan0.6", 
+        "file": "src/traverser_stableintersection.cpp"
+    }, 
+    {
+        "arguments": [
+            "c++", 
+            "-c", 
+            "-DGMPRATIONAL", 
+            "-Wuninitialized", 
+            "-fno-omit-frame-pointer", 
+            "-O2", 
+            "-g", 
+            "-std=c++0x", "-stdlib=libc++", 
+            "-g", 
+            "-o", 
+            "src/app_initialdeterminant.o", 
+            "src/app_initialdeterminant.cpp"
+        ], 
+        "directory": "/home/ralf/gfan0.6", 
+        "file": "src/app_initialdeterminant.cpp"
+    }, 
+    {
+        "arguments": [
+            "c++", 
+            "-c", 
+            "-DGMPRATIONAL", 
+            "-Wuninitialized", 
+            "-fno-omit-frame-pointer", 
+            "-O2", 
+            "-g", 
+            "-std=c++0x", "-stdlib=libc++", 
+            "-g", 
+            "-o", 
+            "src/app_integerfactorization.o", 
+            "src/app_integerfactorization.cpp"
+        ], 
+        "directory": "/home/ralf/gfan0.6", 
+        "file": "src/app_integerfactorization.cpp"
+    }, 
+    {
+        "arguments": [
+            "c++", 
+            "-c", 
+            "-DGMPRATIONAL", 
+            "-Wuninitialized", 
+            "-fno-omit-frame-pointer", 
+            "-O2", 
+            "-g", 
+            "-std=c++0x", "-stdlib=libc++", 
+            "-g", 
+            "-o", 
+            "src/traverser_bsptree.o", 
+            "src/traverser_bsptree.cpp"
+        ], 
+        "directory": "/home/ralf/gfan0.6", 
+        "file": "src/traverser_bsptree.cpp"
+    }, 
+    {
+        "arguments": [
+            "c++", 
+            "-c", 
+            "-DGMPRATIONAL", 
+            "-Wuninitialized", 
+            "-fno-omit-frame-pointer", 
+            "-O2", 
+            "-g", 
+            "-std=c++0x", "-stdlib=libc++", 
+            "-g", 
+            "-o", 
+            "src/symmetriccomplex.o", 
+            "src/symmetriccomplex.cpp"
+        ], 
+        "directory": "/home/ralf/gfan0.6", 
+        "file": "src/symmetriccomplex.cpp"
+    }, 
+    {
+        "arguments": [
+            "c++", 
+            "-c", 
+            "-DGMPRATIONAL", 
+            "-Wuninitialized", 
+            "-fno-omit-frame-pointer", 
+            "-O2", 
+            "-g", 
+            "-std=c++0x", "-stdlib=libc++", 
+            "-g", 
+            "-o", 
+            "src/minkowskidual.o", 
+            "src/minkowskidual.cpp"
+        ], 
+        "directory": "/home/ralf/gfan0.6", 
+        "file": "src/minkowskidual.cpp"
+    }, 
+    {
+        "arguments": [
+            "c++", 
+            "-c", 
+            "-DGMPRATIONAL", 
+            "-Wuninitialized", 
+            "-fno-omit-frame-pointer", 
+            "-O2", 
+            "-g", 
+            "-std=c++0x", "-stdlib=libc++", 
+            "-g", 
+            "-o", 
+            "src/app_main.o", 
+            "src/app_main.cpp"
+        ], 
+        "directory": "/home/ralf/gfan0.6", 
+        "file": "src/app_main.cpp"
+    }, 
+    {
+        "arguments": [
+            "c++", 
+            "-c", 
+            "-DGMPRATIONAL", 
+            "-Wuninitialized", 
+            "-fno-omit-frame-pointer", 
+            "-O2", 
+            "-g", 
+            "-std=c++0x", "-stdlib=libc++", 
+            "-g", 
+            "-o", 
+            "src/gfanlib_symmetry.o", 
+            "src/gfanlib_symmetry.cpp"
+        ], 
+        "directory": "/home/ralf/gfan0.6", 
+        "file": "src/gfanlib_symmetry.cpp"
+    }, 
+    {
+        "arguments": [
+            "c++", 
+            "-c", 
+            "-DGMPRATIONAL", 
+            "-Wuninitialized", 
+            "-fno-omit-frame-pointer", 
+            "-O2", 
+            "-g", 
+            "-std=c++0x", "-stdlib=libc++", 
+            "-g", 
+            "-o", 
+            "src/polyhedralcone.o", 
+            "src/polyhedralcone.cpp"
+        ], 
+        "directory": "/home/ralf/gfan0.6", 
+        "file": "src/polyhedralcone.cpp"
+    }, 
+    {
+        "arguments": [
+            "c++", 
+            "-c", 
+            "-DGMPRATIONAL", 
+            "-Wuninitialized", 
+            "-fno-omit-frame-pointer", 
+            "-O2", 
+            "-g", 
+            "-std=c++0x", "-stdlib=libc++", 
+            "-g", 
+            "-o", 
+            "src/app_stats.o", 
+            "src/app_stats.cpp"
+        ], 
+        "directory": "/home/ralf/gfan0.6", 
+        "file": "src/app_stats.cpp"
+    }, 
+    {
+        "arguments": [
+            "c++", 
+            "-c", 
+            "-DGMPRATIONAL", 
+            "-Wuninitialized", 
+            "-fno-omit-frame-pointer", 
+            "-O2", 
+            "-g", 
+            "-std=c++0x", "-stdlib=libc++", 
+            "-g", 
+            "-o", 
+            "src/app_representatives.o", 
+            "src/app_representatives.cpp"
+        ], 
+        "directory": "/home/ralf/gfan0.6", 
+        "file": "src/app_representatives.cpp"
+    }, 
+    {
+        "arguments": [
+            "c++", 
+            "-c", 
+            "-DGMPRATIONAL", 
+            "-Wuninitialized", 
+            "-fno-omit-frame-pointer", 
+            "-O2", 
+            "-g", 
+            "-std=c++0x", "-stdlib=libc++", 
+            "-g", 
+            "-o", 
+            "src/restrictedautoreduction.o", 
+            "src/restrictedautoreduction.cpp"
+        ], 
+        "directory": "/home/ralf/gfan0.6", 
+        "file": "src/restrictedautoreduction.cpp"
+    }, 
+    {
+        "arguments": [
+            "c++", 
+            "-c", 
+            "-DGMPRATIONAL", 
+            "-Wuninitialized", 
+            "-fno-omit-frame-pointer", 
+            "-O2", 
+            "-g", 
+            "-std=c++0x", "-stdlib=libc++", 
+            "-g", 
+            "-o", 
+            "src/app_test.o", 
+            "src/app_test.cpp"
+        ], 
+        "directory": "/home/ralf/gfan0.6", 
+        "file": "src/app_test.cpp"
+    }, 
+    {
+        "arguments": [
+            "c++", 
+            "-c", 
+            "-DGMPRATIONAL", 
+            "-Wuninitialized", 
+            "-fno-omit-frame-pointer", 
+            "-O2", 
+            "-g", 
+            "-std=c++0x", "-stdlib=libc++", 
+            "-g", 
+            "-o", 
+            "src/app_idealintersection.o", 
+            "src/app_idealintersection.cpp"
+        ], 
+        "directory": "/home/ralf/gfan0.6", 
+        "file": "src/app_idealintersection.cpp"
+    }, 
+    {
+        "arguments": [
+            "c++", 
+            "-c", 
+            "-DGMPRATIONAL", 
+            "-Wuninitialized", 
+            "-fno-omit-frame-pointer", 
+            "-O2", 
+            "-g", 
+            "-std=c++0x", "-stdlib=libc++", 
+            "-g", 
+            "-o", 
+            "src/gfanlib_polymakefile.o", 
+            "src/gfanlib_polymakefile.cpp"
+        ], 
+        "directory": "/home/ralf/gfan0.6", 
+        "file": "src/gfanlib_polymakefile.cpp"
+    }, 
+    {
+        "arguments": [
+            "c++", 
+            "-c", 
+            "-DGMPRATIONAL", 
+            "-Wuninitialized", 
+            "-fno-omit-frame-pointer", 
+            "-O2", 
+            "-g", 
+            "-std=c++0x", "-stdlib=libc++", 
+            "-g", 
+            "-o", 
+            "src/tropicaltraverse.o", 
+            "src/tropicaltraverse.cpp"
+        ], 
+        "directory": "/home/ralf/gfan0.6", 
+        "file": "src/tropicaltraverse.cpp"
+    }, 
+    {
+        "arguments": [
+            "c++", 
+            "-c", 
+            "-DGMPRATIONAL", 
+            "-Wuninitialized", 
+            "-fno-omit-frame-pointer", 
+            "-O2", 
+            "-g", 
+            "-std=c++0x", "-stdlib=libc++", 
+            "-g", 
+            "-o", 
+            "src/app_isbalanced.o", 
+            "src/app_isbalanced.cpp"
+        ], 
+        "directory": "/home/ralf/gfan0.6", 
+        "file": "src/app_isbalanced.cpp"
+    }, 
+    {
+        "arguments": [
+            "c++", 
+            "-c", 
+            "-DGMPRATIONAL", 
+            "-Wuninitialized", 
+            "-fno-omit-frame-pointer", 
+            "-O2", 
+            "-g", 
+            "-std=c++0x", "-stdlib=libc++", 
+            "-g", 
+            "-o", 
+            "src/app_tropicalfunction.o", 
+            "src/app_tropicalfunction.cpp"
+        ], 
+        "directory": "/home/ralf/gfan0.6", 
+        "file": "src/app_tropicalfunction.cpp"
+    }, 
+    {
+        "arguments": [
+            "c++", 
+            "-c", 
+            "-DGMPRATIONAL", 
+            "-Wuninitialized", 
+            "-fno-omit-frame-pointer", 
+            "-O2", 
+            "-g", 
+            "-std=c++0x", "-stdlib=libc++", 
+            "-g", 
+            "-o", 
+            "src/app_padic.o", 
+            "src/app_padic.cpp"
+        ], 
+        "directory": "/home/ralf/gfan0.6", 
+        "file": "src/app_padic.cpp"
+    }, 
+    {
+        "arguments": [
+            "c++", 
+            "-c", 
+            "-DGMPRATIONAL", 
+            "-Wuninitialized", 
+            "-fno-omit-frame-pointer", 
+            "-O2", 
+            "-g", 
+            "-std=c++0x", "-stdlib=libc++", 
+            "-g", 
+            "-o", 
+            "src/mixedvolume.o", 
+            "src/mixedvolume.cpp"
+        ], 
+        "directory": "/home/ralf/gfan0.6", 
+        "file": "src/mixedvolume.cpp"
+    }, 
+    {
+        "arguments": [
+            "c++", 
+            "-c", 
+            "-DGMPRATIONAL", 
+            "-Wuninitialized", 
+            "-fno-omit-frame-pointer", 
+            "-O2", 
+            "-g", 
+            "-std=c++0x", "-stdlib=libc++", 
+            "-g", 
+            "-o", 
+            "src/continuedfractions.o", 
+            "src/continuedfractions.cpp"
+        ], 
+        "directory": "/home/ralf/gfan0.6", 
+        "file": "src/continuedfractions.cpp"
+    }, 
+    {
+        "arguments": [
+            "c++", 
+            "-c", 
+            "-DGMPRATIONAL", 
+            "-Wuninitialized", 
+            "-fno-omit-frame-pointer", 
+            "-O2", 
+            "-g", 
+            "-std=c++0x", "-stdlib=libc++", 
+            "-g", 
+            "-o", 
+            "src/app_mixedvolume.o", 
+            "src/app_mixedvolume.cpp"
+        ], 
+        "directory": "/home/ralf/gfan0.6", 
+        "file": "src/app_mixedvolume.cpp"
+    }, 
+    {
+        "arguments": [
+            "c++", 
+            "-c", 
+            "-DGMPRATIONAL", 
+            "-Wuninitialized", 
+            "-fno-omit-frame-pointer", 
+            "-O2", 
+            "-g", 
+            "-std=c++0x", "-stdlib=libc++", 
+            "-g", 
+            "-o", 
+            "src/app_tropicalbasis.o", 
+            "src/app_tropicalbasis.cpp"
+        ], 
+        "directory": "/home/ralf/gfan0.6", 
+        "file": "src/app_tropicalbasis.cpp"
+    }, 
+    {
+        "arguments": [
+            "c++", 
+            "-c", 
+            "-DGMPRATIONAL", 
+            "-Wuninitialized", 
+            "-fno-omit-frame-pointer", 
+            "-O2", 
+            "-g", 
+            "-std=c++0x", "-stdlib=libc++", 
+            "-g", 
+            "-o", 
+            "src/regularsubdivision.o", 
+            "src/regularsubdivision.cpp"
+        ], 
+        "directory": "/home/ralf/gfan0.6", 
+        "file": "src/regularsubdivision.cpp"
+    }, 
+    {
+        "arguments": [
+            "c++", 
+            "-c", 
+            "-DGMPRATIONAL", 
+            "-Wuninitialized", 
+            "-fno-omit-frame-pointer", 
+            "-O2", 
+            "-g", 
+            "-std=c++0x", "-stdlib=libc++", 
+            "-g", 
+            "-o", 
+            "src/app_traversetropicalintersection.o", 
+            "src/app_traversetropicalintersection.cpp"
+        ], 
+        "directory": "/home/ralf/gfan0.6", 
+        "file": "src/app_traversetropicalintersection.cpp"
+    }, 
+    {
+        "arguments": [
+            "c++", 
+            "-c", 
+            "-DGMPRATIONAL", 
+            "-Wuninitialized", 
+            "-fno-omit-frame-pointer", 
+            "-O2", 
+            "-g", 
+            "-std=c++0x", "-stdlib=libc++", 
+            "-g", 
+            "-o", 
+            "src/minkowskisum.o", 
+            "src/minkowskisum.cpp"
+        ], 
+        "directory": "/home/ralf/gfan0.6", 
+        "file": "src/minkowskisum.cpp"
+    }, 
+    {
+        "arguments": [
+            "c++", 
+            "-c", 
+            "-DGMPRATIONAL", 
+            "-Wuninitialized", 
+            "-fno-omit-frame-pointer", 
+            "-O2", 
+            "-g", 
+            "-std=c++0x", "-stdlib=libc++", 
+            "-g", 
+            "-o", 
+            "src/gfanapplication.o", 
+            "src/gfanapplication.cpp"
+        ], 
+        "directory": "/home/ralf/gfan0.6", 
+        "file": "src/gfanapplication.cpp"
+    }, 
+    {
+        "arguments": [
+            "c++", 
+            "-c", 
+            "-DGMPRATIONAL", 
+            "-Wuninitialized", 
+            "-fno-omit-frame-pointer", 
+            "-O2", 
+            "-g", 
+            "-std=c++0x", "-stdlib=libc++", 
+            "-g", 
+            "-o", 
+            "src/app_isgroebnerbasis.o", 
+            "src/app_isgroebnerbasis.cpp"
+        ], 
+        "directory": "/home/ralf/gfan0.6", 
+        "file": "src/app_isgroebnerbasis.cpp"
+    }, 
+    {
+        "arguments": [
+            "c++", 
+            "-c", 
+            "-DGMPRATIONAL", 
+            "-Wuninitialized", 
+            "-fno-omit-frame-pointer", 
+            "-O2", 
+            "-g", 
+            "-std=c++0x", "-stdlib=libc++", 
+            "-g", 
+            "-o", 
+            "src/app_leadingterms.o", 
+            "src/app_leadingterms.cpp"
+        ], 
+        "directory": "/home/ralf/gfan0.6", 
+        "file": "src/app_leadingterms.cpp"
+    }, 
+    {
+        "arguments": [
+            "c++", 
+            "-c", 
+            "-DGMPRATIONAL", 
+            "-Wuninitialized", 
+            "-fno-omit-frame-pointer", 
+            "-O2", 
+            "-g", 
+            "-std=c++0x", "-stdlib=libc++", 
+            "-g", 
+            "-o", 
+            "src/app_fancoarsening.o", 
+            "src/app_fancoarsening.cpp"
+        ], 
+        "directory": "/home/ralf/gfan0.6", 
+        "file": "src/app_fancoarsening.cpp"
+    }, 
+    {
+        "arguments": [
+            "c++", 
+            "-c", 
+            "-DGMPRATIONAL", 
+            "-Wuninitialized", 
+            "-fno-omit-frame-pointer", 
+            "-O2", 
+            "-g", 
+            "-std=c++0x", "-stdlib=libc++", 
+            "-g", 
+            "-o", 
+            "src/tropical_weildivisor.o", 
+            "src/tropical_weildivisor.cpp"
+        ], 
+        "directory": "/home/ralf/gfan0.6", 
+        "file": "src/tropical_weildivisor.cpp"
+    }, 
+    {
+        "arguments": [
+            "c++", 
+            "-c", 
+            "-DGMPRATIONAL", 
+            "-Wuninitialized", 
+            "-fno-omit-frame-pointer", 
+            "-O2", 
+            "-g", 
+            "-std=c++0x", "-stdlib=libc++", 
+            "-g", 
+            "-o", 
+            "src/app_fancones.o", 
+            "src/app_fancones.cpp"
+        ], 
+        "directory": "/home/ralf/gfan0.6", 
+        "file": "src/app_fancones.cpp"
+    }, 
+    {
+        "arguments": [
+            "c++", 
+            "-c", 
+            "-DGMPRATIONAL", 
+            "-Wuninitialized", 
+            "-fno-omit-frame-pointer", 
+            "-O2", 
+            "-g", 
+            "-std=c++0x", "-stdlib=libc++", 
+            "-g", 
+            "-o", 
+            "src/app_tropicaltraverse.o", 
+            "src/app_tropicaltraverse.cpp"
+        ], 
+        "directory": "/home/ralf/gfan0.6", 
+        "file": "src/app_tropicaltraverse.cpp"
+    }, 
+    {
+        "arguments": [
+            "c++", 
+            "-c", 
+            "-DGMPRATIONAL", 
+            "-Wuninitialized", 
+            "-fno-omit-frame-pointer", 
+            "-O2", 
+            "-g", 
+            "-std=c++0x", "-stdlib=libc++", 
+            "-g", 
+            "-o", 
+            "src/gfanlib_zfan.o", 
+            "src/gfanlib_zfan.cpp"
+        ], 
+        "directory": "/home/ralf/gfan0.6", 
+        "file": "src/gfanlib_zfan.cpp"
+    }, 
+    {
+        "arguments": [
+            "c++", 
+            "-c", 
+            "-DGMPRATIONAL", 
+            "-Wuninitialized", 
+            "-fno-omit-frame-pointer", 
+            "-O2", 
+            "-g", 
+            "-std=c++0x", "-stdlib=libc++", 
+            "-g", 
+            "-o", 
+            "src/app_spolynomial.o", 
+            "src/app_spolynomial.cpp"
+        ], 
+        "directory": "/home/ralf/gfan0.6", 
+        "file": "src/app_spolynomial.cpp"
+    }, 
+    {
+        "arguments": [
+            "c++", 
+            "-c", 
+            "-DGMPRATIONAL", 
+            "-Wuninitialized", 
+            "-fno-omit-frame-pointer", 
+            "-O2", 
+            "-g", 
+            "-std=c++0x", "-stdlib=libc++", 
+            "-g", 
+            "-fno-guess-branch-probability", 
+            "-o", 
+            "src/symmetrictraversal.o", 
+            "src/symmetrictraversal.cpp"
+        ], 
+        "directory": "/home/ralf/gfan0.6", 
+        "file": "src/symmetrictraversal.cpp"
+    }, 
+    {
+        "arguments": [
+            "c++", 
+            "-c", 
+            "-DGMPRATIONAL", 
+            "-Wuninitialized", 
+            "-fno-omit-frame-pointer", 
+            "-O2", 
+            "-g", 
+            "-std=c++0x", "-stdlib=libc++", 
+            "-g", 
+            "-o", 
+            "src/gmpallocator.o", 
+            "src/gmpallocator.cpp"
+        ], 
+        "directory": "/home/ralf/gfan0.6", 
+        "file": "src/gmpallocator.cpp"
+    }, 
+    {
+        "arguments": [
+            "c++", 
+            "-c", 
+            "-DGMPRATIONAL", 
+            "-Wuninitialized", 
+            "-fno-omit-frame-pointer", 
+            "-O2", 
+            "-g", 
+            "-std=c++0x", "-stdlib=libc++", 
+            "-g", 
+            "-o", 
+            "src/matrix.o", 
+            "src/matrix.cpp"
+        ], 
+        "directory": "/home/ralf/gfan0.6", 
+        "file": "src/matrix.cpp"
+    }, 
+    {
+        "arguments": [
+            "c++", 
+            "-c", 
+            "-DGMPRATIONAL", 
+            "-Wuninitialized", 
+            "-fno-omit-frame-pointer", 
+            "-O2", 
+            "-g", 
+            "-std=c++0x", "-stdlib=libc++", 
+            "-g", 
+            "-o", 
+            "src/packedmonomial.o", 
+            "src/packedmonomial.cpp"
+        ], 
+        "directory": "/home/ralf/gfan0.6", 
+        "file": "src/packedmonomial.cpp"
+    }, 
+    {
+        "arguments": [
+            "c++", 
+            "-c", 
+            "-DGMPRATIONAL", 
+            "-Wuninitialized", 
+            "-fno-omit-frame-pointer", 
+            "-O2", 
+            "-g", 
+            "-std=c++0x", "-stdlib=libc++", 
+            "-g", 
+            "-o", 
+            "src/timer.o", 
+            "src/timer.cpp"
+        ], 
+        "directory": "/home/ralf/gfan0.6", 
+        "file": "src/timer.cpp"
+    }, 
+    {
+        "arguments": [
+            "c++", 
+            "-c", 
+            "-DGMPRATIONAL", 
+            "-Wuninitialized", 
+            "-fno-omit-frame-pointer", 
+            "-O2", 
+            "-g", 
+            "-std=c++0x", "-stdlib=libc++", 
+            "-g", 
+            "-o", 
+            "src/app_polynomialsetunion.o", 
+            "src/app_polynomialsetunion.cpp"
+        ], 
+        "directory": "/home/ralf/gfan0.6", 
+        "file": "src/app_polynomialsetunion.cpp"
+    }, 
+    {
+        "arguments": [
+            "c++", 
+            "-c", 
+            "-DGMPRATIONAL", 
+            "-Wuninitialized", 
+            "-fno-omit-frame-pointer", 
+            "-O2", 
+            "-g", 
+            "-std=c++0x", "-stdlib=libc++", 
+            "-g", 
+            "-o", 
+            "src/app_tropicalhypersurfacereconstruction.o", 
+            "src/app_tropicalhypersurfacereconstruction.cpp"
+        ], 
+        "directory": "/home/ralf/gfan0.6", 
+        "file": "src/app_tropicalhypersurfacereconstruction.cpp"
+    }, 
+    {
+        "arguments": [
+            "c++", 
+            "-c", 
+            "-DGMPRATIONAL", 
+            "-Wuninitialized", 
+            "-fno-omit-frame-pointer", 
+            "-O2", 
+            "-g", 
+            "-std=c++0x", "-stdlib=libc++", 
+            "-g", 
+            "-o", 
+            "src/field_rationalfunctions.o", 
+            "src/field_rationalfunctions.cpp"
+        ], 
+        "directory": "/home/ralf/gfan0.6", 
+        "file": "src/field_rationalfunctions.cpp"
+    }, 
+    {
+        "arguments": [
+            "c++", 
+            "-c", 
+            "-DGMPRATIONAL", 
+            "-Wuninitialized", 
+            "-fno-omit-frame-pointer", 
+            "-O2", 
+            "-g", 
+            "-std=c++0x", "-stdlib=libc++", 
+            "-g", 
+            "-o", 
+            "src/division.o", 
+            "src/division.cpp"
+        ], 
+        "directory": "/home/ralf/gfan0.6", 
+        "file": "src/division.cpp"
+    }, 
+    {
+        "arguments": [
+            "c++", 
+            "-c", 
+            "-DGMPRATIONAL", 
+            "-Wuninitialized", 
+            "-fno-omit-frame-pointer", 
+            "-O2", 
+            "-g", 
+            "-std=c++0x", "-stdlib=libc++", 
+            "-g", 
+            "-o", 
+            "src/app_buchberger.o", 
+            "src/app_buchberger.cpp"
+        ], 
+        "directory": "/home/ralf/gfan0.6", 
+        "file": "src/app_buchberger.cpp"
+    }, 
+    {
+        "arguments": [
+            "c++", 
+            "-c", 
+            "-DGMPRATIONAL", 
+            "-Wuninitialized", 
+            "-fno-omit-frame-pointer", 
+            "-O2", 
+            "-g", 
+            "-std=c++0x", "-stdlib=libc++", 
+            "-g", 
+            "-o", 
+            "src/app_tropicalimage.o", 
+            "src/app_tropicalimage.cpp"
+        ], 
+        "directory": "/home/ralf/gfan0.6", 
+        "file": "src/app_tropicalimage.cpp"
+    }, 
+    {
+        "arguments": [
+            "c++", 
+            "-c", 
+            "-DGMPRATIONAL", 
+            "-Wuninitialized", 
+            "-fno-omit-frame-pointer", 
+            "-O2", 
+            "-g", 
+            "-std=c++0x", "-stdlib=libc++", 
+            "-g", 
+            "-o", 
+            "src/nbody.o", 
+            "src/nbody.cpp"
+        ], 
+        "directory": "/home/ralf/gfan0.6", 
+        "file": "src/nbody.cpp"
+    }, 
+    {
+        "arguments": [
+            "c++", 
+            "-c", 
+            "-DGMPRATIONAL", 
+            "-Wuninitialized", 
+            "-fno-omit-frame-pointer", 
+            "-O2", 
+            "-g", 
+            "-std=c++0x", "-stdlib=libc++", 
+            "-g", 
+            "-o", 
+            "src/app_tropicalbruteforce.o", 
+            "src/app_tropicalbruteforce.cpp"
+        ], 
+        "directory": "/home/ralf/gfan0.6", 
+        "file": "src/app_tropicalbruteforce.cpp"
+    }, 
+    {
+        "arguments": [
+            "c++", 
+            "-c", 
+            "-DGMPRATIONAL", 
+            "-Wuninitialized", 
+            "-fno-omit-frame-pointer", 
+            "-O2", 
+            "-g", 
+            "-std=c++0x", "-stdlib=libc++", 
+            "-g", 
+            "-o", 
+            "src/term.o", 
+            "src/term.cpp"
+        ], 
+        "directory": "/home/ralf/gfan0.6", 
+        "file": "src/term.cpp"
+    }, 
+    {
+        "arguments": [
+            "c++", 
+            "-c", 
+            "-DGMPRATIONAL", 
+            "-Wuninitialized", 
+            "-fno-omit-frame-pointer", 
+            "-O2", 
+            "-g", 
+            "-std=c++0x", "-stdlib=libc++", 
+            "-g", 
+            "-o", 
+            "src/app_triangulate.o", 
+            "src/app_triangulate.cpp"
+        ], 
+        "directory": "/home/ralf/gfan0.6", 
+        "file": "src/app_triangulate.cpp"
+    }, 
+    {
+        "arguments": [
+            "c++", 
+            "-c", 
+            "-DGMPRATIONAL", 
+            "-Wuninitialized", 
+            "-fno-omit-frame-pointer", 
+            "-O2", 
+            "-g", 
+            "-std=c++0x", "-stdlib=libc++", 
+            "-g", 
+            "-o", 
+            "src/app_link.o", 
+            "src/app_link.cpp"
+        ], 
+        "directory": "/home/ralf/gfan0.6", 
+        "file": "src/app_link.cpp"
+    }, 
+    {
+        "arguments": [
+            "c++", 
+            "-c", 
+            "-DGMPRATIONAL", 
+            "-Wuninitialized", 
+            "-fno-omit-frame-pointer", 
+            "-O2", 
+            "-g", 
+            "-std=c++0x", "-stdlib=libc++", 
+            "-g", 
+            "-o", 
+            "src/app_smalessixth.o", 
+            "src/app_smalessixth.cpp"
+        ], 
+        "directory": "/home/ralf/gfan0.6", 
+        "file": "src/app_smalessixth.cpp"
+    }, 
+    {
+        "arguments": [
+            "c++", 
+            "-c", 
+            "-DGMPRATIONAL", 
+            "-Wuninitialized", 
+            "-fno-omit-frame-pointer", 
+            "-O2", 
+            "-g", 
+            "-std=c++0x", "-stdlib=libc++", 
+            "-g", 
+            "-o", 
+            "src/xfig.o", 
+            "src/xfig.cpp"
+        ], 
+        "directory": "/home/ralf/gfan0.6", 
+        "file": "src/xfig.cpp"
+    }, 
+    {
+        "arguments": [
+            "c++", 
+            "-c", 
+            "-DGMPRATIONAL", 
+            "-Wuninitialized", 
+            "-fno-omit-frame-pointer", 
+            "-O2", 
+            "-g", 
+            "-std=c++0x", "-stdlib=libc++", 
+            "-g", 
+            "-o", 
+            "src/app_minkowski.o", 
+            "src/app_minkowski.cpp"
+        ], 
+        "directory": "/home/ralf/gfan0.6", 
+        "file": "src/app_minkowski.cpp"
+    }, 
+    {
+        "arguments": [
+            "c++", 
+            "-c", 
+            "-DGMPRATIONAL", 
+            "-Wuninitialized", 
+            "-fno-omit-frame-pointer", 
+            "-O2", 
+            "-g", 
+            "-std=c++0x", "-stdlib=libc++", 
+            "-g", 
+            "-o", 
+            "src/dimension.o", 
+            "src/dimension.cpp"
+        ], 
+        "directory": "/home/ralf/gfan0.6", 
+        "file": "src/dimension.cpp"
+    }, 
+    {
+        "arguments": [
+            "c++", 
+            "-c", 
+            "-DGMPRATIONAL", 
+            "-Wuninitialized", 
+            "-fno-omit-frame-pointer", 
+            "-O2", 
+            "-g", 
+            "-std=c++0x", "-stdlib=libc++", 
+            "-g", 
+            "-o", 
+            "src/scarf.o", 
+            "src/scarf.cpp"
+        ], 
+        "directory": "/home/ralf/gfan0.6", 
+        "file": "src/scarf.cpp"
+    }, 
+    {
+        "arguments": [
+            "c++", 
+            "-c", 
+            "-DGMPRATIONAL", 
+            "-Wuninitialized", 
+            "-fno-omit-frame-pointer", 
+            "-O2", 
+            "-g", 
+            "-std=c++0x", "-stdlib=libc++", 
+            "-g", 
+            "-o", 
+            "src/lll.o", 
+            "src/lll.cpp"
+        ], 
+        "directory": "/home/ralf/gfan0.6", 
+        "file": "src/lll.cpp"
+    }, 
+    {
+        "arguments": [
+            "c++", 
+            "-c", 
+            "-DGMPRATIONAL", 
+            "-Wuninitialized", 
+            "-fno-omit-frame-pointer", 
+            "-O2", 
+            "-g", 
+            "-std=c++0x", "-stdlib=libc++", 
+            "-g", 
+            "-o", 
+            "src/app_debug.o", 
+            "src/app_debug.cpp"
+        ], 
+        "directory": "/home/ralf/gfan0.6", 
+        "file": "src/app_debug.cpp"
+    }, 
+    {
+        "arguments": [
+            "c++", 
+            "-c", 
+            "-DGMPRATIONAL", 
+            "-Wuninitialized", 
+            "-fno-omit-frame-pointer", 
+            "-O2", 
+            "-g", 
+            "-std=c++0x", "-stdlib=libc++", 
+            "-g", 
+            "-o", 
+            "src/app_combinerays.o", 
+            "src/app_combinerays.cpp"
+        ], 
+        "directory": "/home/ralf/gfan0.6", 
+        "file": "src/app_combinerays.cpp"
+    }, 
+    {
+        "arguments": [
+            "c++", 
+            "-c", 
+            "-DGMPRATIONAL", 
+            "-Wuninitialized", 
+            "-fno-omit-frame-pointer", 
+            "-O2", 
+            "-g", 
+            "-std=c++0x", "-stdlib=libc++", 
+            "-g", 
+            "-o", 
+            "src/traverser_resultantfanspecialization.o", 
+            "src/traverser_resultantfanspecialization.cpp"
+        ], 
+        "directory": "/home/ralf/gfan0.6", 
+        "file": "src/traverser_resultantfanspecialization.cpp"
+    }, 
+    {
+        "arguments": [
+            "c++", 
+            "-c", 
+            "-DGMPRATIONAL", 
+            "-Wuninitialized", 
+            "-fno-omit-frame-pointer", 
+            "-O2", 
+            "-g", 
+            "-std=c++0x", "-stdlib=libc++", 
+            "-g", 
+            "-o", 
+            "src/lp.o", 
+            "src/lp.cpp"
+        ], 
+        "directory": "/home/ralf/gfan0.6", 
+        "file": "src/lp.cpp"
+    }, 
+    {
+        "arguments": [
+            "c++", 
+            "-c", 
+            "-DGMPRATIONAL", 
+            "-Wuninitialized", 
+            "-fno-omit-frame-pointer", 
+            "-O2", 
+            "-g", 
+            "-std=c++0x", "-stdlib=libc++", 
+            "-g", 
+            "-o", 
+            "src/primarydecomposition.o", 
+            "src/primarydecomposition.cpp"
+        ], 
+        "directory": "/home/ralf/gfan0.6", 
+        "file": "src/primarydecomposition.cpp"
+    }, 
+    {
+        "arguments": [
+            "c++", 
+            "-c", 
+            "-DGMPRATIONAL", 
+            "-Wuninitialized", 
+            "-fno-omit-frame-pointer", 
+            "-O2", 
+            "-g", 
+            "-std=c++0x", "-stdlib=libc++", 
+            "-g", 
+            "-o", 
+            "src/monomial.o", 
+            "src/monomial.cpp"
+        ], 
+        "directory": "/home/ralf/gfan0.6", 
+        "file": "src/monomial.cpp"
+    }, 
+    {
+        "arguments": [
+            "c++", 
+            "-c", 
+            "-DGMPRATIONAL", 
+            "-Wuninitialized", 
+            "-fno-omit-frame-pointer", 
+            "-O2", 
+            "-g", 
+            "-std=c++0x", "-stdlib=libc++", 
+            "-g", 
+            "-o", 
+            "src/polynomialgcd.o", 
+            "src/polynomialgcd.cpp"
+        ], 
+        "directory": "/home/ralf/gfan0.6", 
+        "file": "src/polynomialgcd.cpp"
+    }, 
+    {
+        "arguments": [
+            "c++", 
+            "-c", 
+            "-DGMPRATIONAL", 
+            "-Wuninitialized", 
+            "-fno-omit-frame-pointer", 
+            "-O2", 
+            "-g", 
+            "-std=c++0x", "-stdlib=libc++", 
+            "-g", 
+            "-o", 
+            "src/app_tropicalvarietyspan.o", 
+            "src/app_tropicalvarietyspan.cpp"
+        ], 
+        "directory": "/home/ralf/gfan0.6", 
+        "file": "src/app_tropicalvarietyspan.cpp"
+    }, 
+    {
+        "arguments": [
+            "c++", 
+            "-c", 
+            "-DGMPRATIONAL", 
+            "-Wuninitialized", 
+            "-fno-omit-frame-pointer", 
+            "-O2", 
+            "-g", 
+            "-std=c++0x", "-stdlib=libc++", 
+            "-g", 
+            "-o", 
+            "src/parser.o", 
+            "src/parser.cpp"
+        ], 
+        "directory": "/home/ralf/gfan0.6", 
+        "file": "src/parser.cpp"
+    }, 
+    {
+        "arguments": [
+            "c++", 
+            "-c", 
+            "-DGMPRATIONAL", 
+            "-Wuninitialized", 
+            "-fno-omit-frame-pointer", 
+            "-O2", 
+            "-g", 
+            "-std=c++0x", "-stdlib=libc++", 
+            "-g", 
+            "-o", 
+            "src/app_lattice.o", 
+            "src/app_lattice.cpp"
+        ], 
+        "directory": "/home/ralf/gfan0.6", 
+        "file": "src/app_lattice.cpp"
+    }, 
+    {
+        "arguments": [
+            "c++", 
+            "-c", 
+            "-DGMPRATIONAL", 
+            "-Wuninitialized", 
+            "-fno-omit-frame-pointer", 
+            "-O2", 
+            "-g", 
+            "-std=c++0x", "-stdlib=libc++", 
+            "-g", 
+            "-o", 
+            "src/app_tropicallinearspace.o", 
+            "src/app_tropicallinearspace.cpp"
+        ], 
+        "directory": "/home/ralf/gfan0.6", 
+        "file": "src/app_tropicallinearspace.cpp"
+    }, 
+    {
+        "arguments": [
+            "c++", 
+            "-c", 
+            "-DGMPRATIONAL", 
+            "-Wuninitialized", 
+            "-fno-omit-frame-pointer", 
+            "-O2", 
+            "-g", 
+            "-std=c++0x", "-stdlib=libc++", 
+            "-g", 
+            "-o", 
+            "src/determinantpoly.o", 
+            "src/determinantpoly.cpp"
+        ], 
+        "directory": "/home/ralf/gfan0.6", 
+        "file": "src/determinantpoly.cpp"
+    }, 
+    {
+        "arguments": [
+            "c++", 
+            "-c", 
+            "-DGMPRATIONAL", 
+            "-Wuninitialized", 
+            "-fno-omit-frame-pointer", 
+            "-O2", 
+            "-g", 
+            "-std=c++0x", "-stdlib=libc++", 
+            "-g", 
+            "-o", 
+            "src/app_fanhomology.o", 
+            "src/app_fanhomology.cpp"
+        ], 
+        "directory": "/home/ralf/gfan0.6", 
+        "file": "src/app_fanhomology.cpp"
+    }, 
+    {
+        "arguments": [
+            "c++", 
+            "-c", 
+            "-DGMPRATIONAL", 
+            "-Wuninitialized", 
+            "-fno-omit-frame-pointer", 
+            "-O2", 
+            "-g", 
+            "-std=c++0x", "-stdlib=libc++", 
+            "-g", 
+            "-o", 
+            "src/app_fansubfan.o", 
+            "src/app_fansubfan.cpp"
+        ], 
+        "directory": "/home/ralf/gfan0.6", 
+        "file": "src/app_fansubfan.cpp"
+    }, 
+    {
+        "arguments": [
+            "c++", 
+            "-c", 
+            "-DGMPRATIONAL", 
+            "-Wuninitialized", 
+            "-fno-omit-frame-pointer", 
+            "-O2", 
+            "-g", 
+            "-std=c++0x", "-stdlib=libc++", 
+            "-g", 
+            "-o", 
+            "src/gfanlib_symmetriccomplex.o", 
+            "src/gfanlib_symmetriccomplex.cpp"
+        ], 
+        "directory": "/home/ralf/gfan0.6", 
+        "file": "src/gfanlib_symmetriccomplex.cpp"
+    }, 
+    {
+        "arguments": [
+            "c++", 
+            "-c", 
+            "-DGMPRATIONAL", 
+            "-Wuninitialized", 
+            "-fno-omit-frame-pointer", 
+            "-O2", 
+            "-g", 
+            "-std=c++0x", "-stdlib=libc++", 
+            "-g", 
+            "-o", 
+            "src/app_facets.o", 
+            "src/app_facets.cpp"
+        ], 
+        "directory": "/home/ralf/gfan0.6", 
+        "file": "src/app_facets.cpp"
+    }, 
+    {
+        "arguments": [
+            "c++", 
+            "-c", 
+            "-DGMPRATIONAL", 
+            "-Wuninitialized", 
+            "-fno-omit-frame-pointer", 
+            "-O2", 
+            "-g", 
+            "-std=c++0x", "-stdlib=libc++", 
+            "-g", 
+            "-o", 
+            "src/bergman.o", 
+            "src/bergman.cpp"
+        ], 
+        "directory": "/home/ralf/gfan0.6", 
+        "file": "src/bergman.cpp"
+    }, 
+    {
+        "arguments": [
+            "c++", 
+            "-c", 
+            "-DGMPRATIONAL", 
+            "-Wuninitialized", 
+            "-fno-omit-frame-pointer", 
+            "-O2", 
+            "-g", 
+            "-std=c++0x", "-stdlib=libc++", 
+            "-g", 
+            "-o", 
+            "src/buchberger.o", 
+            "src/buchberger.cpp"
+        ], 
+        "directory": "/home/ralf/gfan0.6", 
+        "file": "src/buchberger.cpp"
+    }, 
+    {
+        "arguments": [
+            "c++", 
+            "-c", 
+            "-DGMPRATIONAL", 
+            "-Wuninitialized", 
+            "-fno-omit-frame-pointer", 
+            "-O2", 
+            "-g", 
+            "-std=c++0x", "-stdlib=libc++", 
+            "-g", 
+            "-o", 
+            "src/app_lll.o", 
+            "src/app_lll.cpp"
+        ], 
+        "directory": "/home/ralf/gfan0.6", 
+        "file": "src/app_lll.cpp"
+    }, 
+    {
+        "arguments": [
+            "c++", 
+            "-c", 
+            "-DGMPRATIONAL", 
+            "-Wuninitialized", 
+            "-fno-omit-frame-pointer", 
+            "-O2", 
+            "-g", 
+            "-std=c++0x", "-stdlib=libc++", 
+            "-g", 
+            "-o", 
+            "src/app_secondaryfan.o", 
+            "src/app_secondaryfan.cpp"
+        ], 
+        "directory": "/home/ralf/gfan0.6", 
+        "file": "src/app_secondaryfan.cpp"
+    }, 
+    {
+        "arguments": [
+            "c++", 
+            "-c", 
+            "-DGMPRATIONAL", 
+            "-Wuninitialized", 
+            "-fno-omit-frame-pointer", 
+            "-O2", 
+            "-g", 
+            "-std=c++0x", "-stdlib=libc++", 
+            "-g", 
+            "-o", 
+            "src/field_rationals.o", 
+            "src/field_rationals.cpp"
+        ], 
+        "directory": "/home/ralf/gfan0.6", 
+        "file": "src/field_rationals.cpp"
+    }, 
+    {
+        "arguments": [
+            "c++", 
+            "-c", 
+            "-DGMPRATIONAL", 
+            "-Wuninitialized", 
+            "-fno-omit-frame-pointer", 
+            "-O2", 
+            "-g", 
+            "-std=c++0x", "-stdlib=libc++", 
+            "-g", 
+            "-o", 
+            "src/fieldlp.o", 
+            "src/fieldlp.cpp"
+        ], 
+        "directory": "/home/ralf/gfan0.6", 
+        "file": "src/fieldlp.cpp"
+    }, 
+    {
+        "arguments": [
+            "c++", 
+            "-c", 
+            "-DGMPRATIONAL", 
+            "-Wuninitialized", 
+            "-fno-omit-frame-pointer", 
+            "-O2", 
+            "-g", 
+            "-std=c++0x", "-stdlib=libc++", 
+            "-g", 
+            "-o", 
+            "src/saturation.o", 
+            "src/saturation.cpp"
+        ], 
+        "directory": "/home/ralf/gfan0.6", 
+        "file": "src/saturation.cpp"
+    }, 
+    {
+        "arguments": [
+            "c++", 
+            "-c", 
+            "-DGMPRATIONAL", 
+            "-Wuninitialized", 
+            "-fno-omit-frame-pointer", 
+            "-O2", 
+            "-g", 
+            "-std=c++0x", "-stdlib=libc++", 
+            "-g", 
+            "-o", 
+            "src/app_chowbetti.o", 
+            "src/app_chowbetti.cpp"
+        ], 
+        "directory": "/home/ralf/gfan0.6", 
+        "file": "src/app_chowbetti.cpp"
+    }, 
+    {
+        "arguments": [
+            "c++", 
+            "-c", 
+            "-DGMPRATIONAL", 
+            "-Wuninitialized", 
+            "-fno-omit-frame-pointer", 
+            "-O2", 
+            "-g", 
+            "-std=c++0x", "-stdlib=libc++", 
+            "-g", 
+            "-o", 
+            "src/traverser_tropical.o", 
+            "src/traverser_tropical.cpp"
+        ], 
+        "directory": "/home/ralf/gfan0.6", 
+        "file": "src/traverser_tropical.cpp"
+    }, 
+    {
+        "arguments": [
+            "c++", 
+            "-c", 
+            "-DGMPRATIONAL", 
+            "-Wuninitialized", 
+            "-fno-omit-frame-pointer", 
+            "-O2", 
+            "-g", 
+            "-std=c++0x", "-stdlib=libc++", 
+            "-g", 
+            "-o", 
+            "src/lattice.o", 
+            "src/lattice.cpp"
+        ], 
+        "directory": "/home/ralf/gfan0.6", 
+        "file": "src/lattice.cpp"
+    }, 
+    {
+        "arguments": [
+            "c++", 
+            "-c", 
+            "-DGMPRATIONAL", 
+            "-Wuninitialized", 
+            "-fno-omit-frame-pointer", 
+            "-O2", 
+            "-g", 
+            "-std=c++0x", "-stdlib=libc++", 
+            "-g", 
+            "-o", 
+            "src/app_composepermutations.o", 
+            "src/app_composepermutations.cpp"
+        ], 
+        "directory": "/home/ralf/gfan0.6", 
+        "file": "src/app_composepermutations.cpp"
+    }, 
+    {
+        "arguments": [
+            "c++", 
+            "-c", 
+            "-DGMPRATIONAL", 
+            "-Wuninitialized", 
+            "-fno-omit-frame-pointer", 
+            "-O2", 
+            "-g", 
+            "-std=c++0x", "-stdlib=libc++", 
+            "-g", 
+            "-o", 
+            "src/app_saturation.o", 
+            "src/app_saturation.cpp"
+        ], 
+        "directory": "/home/ralf/gfan0.6", 
+        "file": "src/app_saturation.cpp"
+    }, 
+    {
+        "arguments": [
+            "c++", 
+            "-c", 
+            "-DGMPRATIONAL", 
+            "-Wuninitialized", 
+            "-fno-omit-frame-pointer", 
+            "-O2", 
+            "-g", 
+            "-std=c++0x", "-stdlib=libc++", 
+            "-g", 
+            "-o", 
+            "src/linalg.o", 
+            "src/linalg.cpp"
+        ], 
+        "directory": "/home/ralf/gfan0.6", 
+        "file": "src/linalg.cpp"
+    }, 
+    {
+        "arguments": [
+            "c++", 
+            "-c", 
+            "-DGMPRATIONAL", 
+            "-Wuninitialized", 
+            "-fno-omit-frame-pointer", 
+            "-O2", 
+            "-g", 
+            "-std=c++0x", "-stdlib=libc++", 
+            "-g", 
+            "-o", 
+            "src/app_sturmsequence.o", 
+            "src/app_sturmsequence.cpp"
+        ], 
+        "directory": "/home/ralf/gfan0.6", 
+        "file": "src/app_sturmsequence.cpp"
+    }, 
+    {
+        "arguments": [
+            "c++", 
+            "-c", 
+            "-DGMPRATIONAL", 
+            "-Wuninitialized", 
+            "-fno-omit-frame-pointer", 
+            "-O2", 
+            "-g", 
+            "-std=c++0x", "-stdlib=libc++", 
+            "-g", 
+            "-o", 
+            "src/gfanlib_paralleltraverser.o", 
+            "src/gfanlib_paralleltraverser.cpp"
+        ], 
+        "directory": "/home/ralf/gfan0.6", 
+        "file": "src/gfanlib_paralleltraverser.cpp"
+    }, 
+    {
+        "arguments": [
+            "c++", 
+            "-c", 
+            "-DGMPRATIONAL", 
+            "-Wuninitialized", 
+            "-fno-omit-frame-pointer", 
+            "-O2", 
+            "-g", 
+            "-std=c++0x", "-stdlib=libc++", 
+            "-g", 
+            "-o", 
+            "src/app_pointconfiguration.o", 
+            "src/app_pointconfiguration.cpp"
+        ], 
+        "directory": "/home/ralf/gfan0.6", 
+        "file": "src/app_pointconfiguration.cpp"
+    }, 
+    {
+        "arguments": [
+            "c++", 
+            "-c", 
+            "-DGMPRATIONAL", 
+            "-Wuninitialized", 
+            "-fno-omit-frame-pointer", 
+            "-O2", 
+            "-g", 
+            "-std=c++0x", "-stdlib=libc++", 
+            "-g", 
+            "-o", 
+            "src/app_tropicalhypersurface.o", 
+            "src/app_tropicalhypersurface.cpp"
+        ], 
+        "directory": "/home/ralf/gfan0.6", 
+        "file": "src/app_tropicalhypersurface.cpp"
+    }, 
+    {
+        "arguments": [
+            "c++", 
+            "-c", 
+            "-DGMPRATIONAL", 
+            "-Wuninitialized", 
+            "-fno-omit-frame-pointer", 
+            "-O2", 
+            "-g", 
+            "-std=c++0x", "-stdlib=libc++", 
+            "-g", 
+            "-o", 
+            "src/app_tropicalhomotopy.o", 
+            "src/app_tropicalhomotopy.cpp"
+        ], 
+        "directory": "/home/ralf/gfan0.6", 
+        "file": "src/app_tropicalhomotopy.cpp"
+    }, 
+    {
+        "arguments": [
+            "c++", 
+            "-c", 
+            "-DGMPRATIONAL", 
+            "-Wuninitialized", 
+            "-fno-omit-frame-pointer", 
+            "-O2", 
+            "-g", 
+            "-std=c++0x", "-stdlib=libc++", 
+            "-g", 
+            "-o", 
+            "src/app_symmetries.o", 
+            "src/app_symmetries.cpp"
+        ], 
+        "directory": "/home/ralf/gfan0.6", 
+        "file": "src/app_symmetries.cpp"
+    }, 
+    {
+        "arguments": [
+            "c++", 
+            "-c", 
+            "-DGMPRATIONAL", 
+            "-Wuninitialized", 
+            "-fno-omit-frame-pointer", 
+            "-O2", 
+            "-g", 
+            "-std=c++0x", "-stdlib=libc++", 
+            "-g", 
+            "-o", 
+            "src/ep_xfig.o", 
+            "src/ep_xfig.cpp"
+        ], 
+        "directory": "/home/ralf/gfan0.6", 
+        "file": "src/ep_xfig.cpp"
+    }, 
+    {
+        "arguments": [
+            "c++", 
+            "-c", 
+            "-DGMPRATIONAL", 
+            "-Wuninitialized", 
+            "-fno-omit-frame-pointer", 
+            "-O2", 
+            "-g", 
+            "-std=c++0x", "-stdlib=libc++", 
+            "-g", 
+            "-o", 
+            "src/tropicalcurve.o", 
+            "src/tropicalcurve.cpp"
+        ], 
+        "directory": "/home/ralf/gfan0.6", 
+        "file": "src/tropicalcurve.cpp"
+    }, 
+    {
+        "arguments": [
+            "c++", 
+            "-c", 
+            "-DGMPRATIONAL", 
+            "-Wuninitialized", 
+            "-fno-omit-frame-pointer", 
+            "-O2", 
+            "-g", 
+            "-std=c++0x", "-stdlib=libc++", 
+            "-g", 
+            "-o", 
+            "src/polynomialring.o", 
+            "src/polynomialring.cpp"
+        ], 
+        "directory": "/home/ralf/gfan0.6", 
+        "file": "src/polynomialring.cpp"
+    }, 
+    {
+        "arguments": [
+            "c++", 
+            "-c", 
+            "-DGMPRATIONAL", 
+            "-Wuninitialized", 
+            "-fno-omit-frame-pointer", 
+            "-O2", 
+            "-g", 
+            "-std=c++0x", "-stdlib=libc++", 
+            "-g", 
+            "-o", 
+            "src/minors.o", 
+            "src/minors.cpp"
+        ], 
+        "directory": "/home/ralf/gfan0.6", 
+        "file": "src/minors.cpp"
+    }, 
+    {
+        "arguments": [
+            "c++", 
+            "-c", 
+            "-DGMPRATIONAL", 
+            "-Wuninitialized", 
+            "-fno-omit-frame-pointer", 
+            "-O2", 
+            "-g", 
+            "-std=c++0x", "-stdlib=libc++", 
+            "-g", 
+            "-o", 
+            "src/groebnerengine.o", 
+            "src/groebnerengine.cpp"
+        ], 
+        "directory": "/home/ralf/gfan0.6", 
+        "file": "src/groebnerengine.cpp"
+    }, 
+    {
+        "arguments": [
+            "c++", 
+            "-c", 
+            "-DGMPRATIONAL", 
+            "-Wuninitialized", 
+            "-fno-omit-frame-pointer", 
+            "-O2", 
+            "-g", 
+            "-std=c++0x", "-stdlib=libc++", 
+            "-g", 
+            "-o", 
+            "src/gfanlib_circuittableint.o", 
+            "src/gfanlib_circuittableint.cpp"
+        ], 
+        "directory": "/home/ralf/gfan0.6", 
+        "file": "src/gfanlib_circuittableint.cpp"
+    }, 
+    {
+        "arguments": [
+            "c++", 
+            "-c", 
+            "-DGMPRATIONAL", 
+            "-Wuninitialized", 
+            "-fno-omit-frame-pointer", 
+            "-O2", 
+            "-g", 
+            "-std=c++0x", "-stdlib=libc++", 
+            "-g", 
+            "-o", 
+            "src/field.o", 
+            "src/field.cpp"
+        ], 
+        "directory": "/home/ralf/gfan0.6", 
+        "file": "src/field.cpp"
+    }, 
+    {
+        "arguments": [
+            "c++", 
+            "-c", 
+            "-DGMPRATIONAL", 
+            "-Wuninitialized", 
+            "-fno-omit-frame-pointer", 
+            "-O2", 
+            "-g", 
+            "-std=c++0x", "-stdlib=libc++", 
+            "-g", 
+            "-o", 
+            "src/wallideal.o", 
+            "src/wallideal.cpp"
+        ], 
+        "directory": "/home/ralf/gfan0.6", 
+        "file": "src/wallideal.cpp"
+    }, 
+    {
+        "arguments": [
+            "c++", 
+            "-c", 
+            "-DGMPRATIONAL", 
+            "-Wuninitialized", 
+            "-fno-omit-frame-pointer", 
+            "-O2", 
+            "-g", 
+            "-std=c++0x", "-stdlib=libc++", 
+            "-g", 
+            "-o", 
+            "src/app_topolyhedralfan.o", 
+            "src/app_topolyhedralfan.cpp"
+        ], 
+        "directory": "/home/ralf/gfan0.6", 
+        "file": "src/app_topolyhedralfan.cpp"
+    }, 
+    {
+        "arguments": [
+            "c++", 
+            "-c", 
+            "-DGMPRATIONAL", 
+            "-Wuninitialized", 
+            "-fno-omit-frame-pointer", 
+            "-O2", 
+            "-g", 
+            "-std=c++0x", "-stdlib=libc++", 
+            "-g", 
+            "-o", 
+            "src/codimoneconnectedness.o", 
+            "src/codimoneconnectedness.cpp"
+        ], 
+        "directory": "/home/ralf/gfan0.6", 
+        "file": "src/codimoneconnectedness.cpp"
+    }, 
+    {
+        "arguments": [
+            "c++", 
+            "-c", 
+            "-DGMPRATIONAL", 
+            "-Wuninitialized", 
+            "-fno-omit-frame-pointer", 
+            "-O2", 
+            "-g", 
+            "-std=c++0x", "-stdlib=libc++", 
+            "-g", 
+            "-o", 
+            "src/binomial.o", 
+            "src/binomial.cpp"
+        ], 
+        "directory": "/home/ralf/gfan0.6", 
+        "file": "src/binomial.cpp"
+    }, 
+    {
+        "arguments": [
+            "c++", 
+            "-c", 
+            "-DGMPRATIONAL", 
+            "-Wuninitialized", 
+            "-fno-omit-frame-pointer", 
+            "-O2", 
+            "-g", 
+            "-std=c++0x", "-stdlib=libc++", 
+            "-g", 
+            "-o", 
+            "src/app_nbody.o", 
+            "src/app_nbody.cpp"
+        ], 
+        "directory": "/home/ralf/gfan0.6", 
+        "file": "src/app_nbody.cpp"
+    }, 
+    {
+        "arguments": [
+            "c++", 
+            "-c", 
+            "-DGMPRATIONAL", 
+            "-Wuninitialized", 
+            "-fno-omit-frame-pointer", 
+            "-O2", 
+            "-g", 
+            "-std=c++0x", "-stdlib=libc++", 
+            "-g", 
+            "-o", 
+            "src/app_supportindices.o", 
+            "src/app_supportindices.cpp"
+        ], 
+        "directory": "/home/ralf/gfan0.6", 
+        "file": "src/app_supportindices.cpp"
+    }, 
+    {
+        "arguments": [
+            "c++", 
+            "-c", 
+            "-DGMPRATIONAL", 
+            "-Wuninitialized", 
+            "-fno-omit-frame-pointer", 
+            "-O2", 
+            "-g", 
+            "-std=c++0x", "-stdlib=libc++", 
+            "-g", 
+            "-o", 
+            "src/integergb.o", 
+            "src/integergb.cpp"
+        ], 
+        "directory": "/home/ralf/gfan0.6", 
+        "file": "src/integergb.cpp"
+    }, 
+    {
+        "arguments": [
+            "c++", 
+            "-c", 
+            "-DGMPRATIONAL", 
+            "-Wuninitialized", 
+            "-fno-omit-frame-pointer", 
+            "-O2", 
+            "-g", 
+            "-std=c++0x", "-stdlib=libc++", 
+            "-g", 
+            "-o", 
+            "src/newtonpolytope.o", 
+            "src/newtonpolytope.cpp"
+        ], 
+        "directory": "/home/ralf/gfan0.6", 
+        "file": "src/newtonpolytope.cpp"
+    }
+]
