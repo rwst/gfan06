@@ -1,0 +1,13 @@
+Q[a,b,c,d,e,f,g,h,i,j]
+{
+c*e+a*h,
+d*e+a*i,
+d*f-c*g,
+d*h-c*i,
+g*h-f*i}
+{
+c*e-b*f+a*h,
+d*e-b*g+a*i,
+d*f-c*g+a*j,
+d*h-c*i+b*j,
+g*h-f*i+e*j}

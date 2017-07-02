@@ -1,0 +1,1 @@
+%s _resultantfan --vectorinput --projection --special| grep F_VECTOR -A1
