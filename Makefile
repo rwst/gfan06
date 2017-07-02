@@ -23,7 +23,7 @@ endif
 
 
 ifeq ($(gmppath),)
-GMP_LINKOPTIONS = -lgmp
+GMP_LINKOPTIONS = -lgmp -lm
 GMP_INCLUDEOPTIONS =
 else
 GMP_LINKOPTIONS = $(gmppath)/lib/libgmp.a
@@ -37,7 +37,7 @@ CDDDEFINE_PREFIX = -DNOCDDPREFIX
 endif
 
 ifeq ($(cddpath),)
-CDD_LINKOPTIONS = -L/usr/local -lcddgmp
+CDD_LINKOPTIONS = -lcddgmp
 CDD_INCLUDEOPTIONS =
 else
 CDD_LINKOPTIONS = $(cddpath)/lib/libcddgmp.a
@@ -59,8 +59,8 @@ SOPLEX_OBJECTS = lp_soplexcdd.o
 endif
 
 
-ADDITIONALLINKOPTIONS = $(CDD_LINKOPTIONS) $(GMP_LINKOPTIONS) $(SOPLEX_LINKOPTIONS) $(SINGULAR_LINKOPTIONS) $(SAGE_LINKOPTIONS) 
-ADDITIONALINCLUDEOPTIONS = $(CDD_INCLUDEOPTIONS) $(GMP_INCLUDEOPTIONS) $(SOPLEX_INCLUDEOPTIONS) $(SINGULAR_INCLUDEOPTIONS) $(SAGE_INCLUDEOPTIONS)
+ADDITIONALLINKOPTIONS = $(CDD_LINKOPTIONS) $(GMP_LINKOPTIONS) $(SOPLEX_LINKOPTIONS) 
+ADDITIONALINCLUDEOPTIONS = $(CDD_INCLUDEOPTIONS) $(GMP_INCLUDEOPTIONS) $(SOPLEX_INCLUDEOPTIONS)
 
 
 MKDIR=mkdir -p
@@ -69,10 +69,8 @@ MKDIR=mkdir -p
 PREFIX =
 SHELL       = /bin/sh
 #ARCH        = LINUX
-CC          = $(PREFIX)gcc
-CLINKER     = $(CC)
-CXX         = $(PREFIX)g++
-CCLINKER    = $(CXX)
+CC          ?= $(PREFIX)gcc
+CXX         ?= $(PREFIX)g++
 #OPTFLAGS    = -O2 -DGMPRATIONAL -DNDEBUG
 # Note that gcc produces wrong code with -O3
 OPTFLAGS    =  -DGMPRATIONAL -Wuninitialized -fno-omit-frame-pointer -O2	 #-O3 -fno-guess-branch-probability #-DNDEBUG
@@ -84,10 +82,8 @@ OPTFLAGS    =  -DGMPRATIONAL -Wuninitialized -fno-omit-frame-pointer -O2	 #-O3 -
 #OPTFLAGS    =  -DGMPRATIONAL -Wuninitialized -fno-omit-frame-pointer -O3 -msse2 -ftree-vectorizer-verbose=2 -ffast-math #-DNDEBUG
 #OPTFLAGS    =  -DGMPRATIONAL -Wuninitialized -fno-omit-frame-pointer -O3 -mavx -msse2 -ftree-vectorizer-verbose=2 -ffast-math #-DNDEBUG
 
-CFLAGS	  = $(OPTFLAGS) $(GPROFFLAG) $(STACTDUMP_OPTIONS) $(ADDITIONALINCLUDEOPTIONS) -std=c++0x -g $(CDDDEFINE_PREFIX) #-pedantic
-#CFLAGS	  = $(OPTFLAGS) $(GPROFFLAG) $(STACTDUMP_OPTIONS) $(ADDITIONALINCLUDEOPTIONS) -D_GLIBCXX_DEBUG -std=c++0x -g $(CDDDEFINE_PREFIX) #-pedantic
-CCFLAGS	  = $(CFLAGS)
-FFLAGS	  = $(OPTFLAGS)
+CFLAGS	  := $(CFLAGS) $(OPTFLAGS) $(GPROFFLAG) $(ADDITIONALINCLUDEOPTIONS) #-pedantic
+CXXFLAGS  := $(CXXFLAGS) $(OPTFLAGS) $(GPROFFLAG) $(ADDITIONALINCLUDEOPTIONS) #-pedantic
 
 CATSOBJECTS =	lp_cdd.o \
 		parser.o \
@@ -353,9 +349,9 @@ EXECS	  = $(MAIN)
 # (compiling with gcc version 4.7.2 and running gfan _tropicaltraverse on a starting cone for Grassmann3_7)
 # Either this is a bug in the code or in the compiler. The bug disappears by compiling with -fno-guess-branch-probability
 src/symmetrictraversal.o: src/symmetrictraversal.cpp
-	$(CXX) $(CFLAGS) -fno-guess-branch-probability  -c src/symmetrictraversal.cpp -o src/symmetrictraversal.o
+	$(CXX) $(CXXFLAGS) -fno-guess-branch-probability  -c src/symmetrictraversal.cpp -o src/symmetrictraversal.o
 # If compiling with clang, use the line below instead:
-#	$(CXX) $(CFLAGS) -c src/symmetrictraversal.cpp -o src/symmetrictraversal.o
+#	$(CXX) $(CXXFLAGS) -c src/symmetrictraversal.cpp -o src/symmetrictraversal.o
 
 # Define suffixes to make the program compile on legolas.imf.au.dk :
 .SUFFIXES: .o .cpp .c
@@ -379,7 +375,7 @@ default: $(OBJECTS) $(ADDITIONALOBJECTS) $(EXECS)
 
 $(MAIN): $(OBJECTS)
 #	$(CCLINKER) $(OBJECTS) $(ADDITIONALLINKOPTIONS) $(GPROFFLAG) -lpthread  -o $(MAIN)
-	$(CCLINKER) $(OBJECTS) $(ADDITIONALLINKOPTIONS) $(GPROFFLAG) -lpthread -rdynamic -o $(MAIN)
+	$(CXX) $(CXXFLAGS) -lpthread -o $(MAIN) $(LDFLAGS) $(OBJECTS) $(ADDITIONALLINKOPTIONS) $(GPROFFLAG)
 
 release:
 	rm -f -r $(RELEASEDIR)/*
@@ -505,7 +501,7 @@ check:
 .c.o:
 	$(CC) $(CFLAGS) -c $< -o $(patsubst %.c,%.o,$<)
 .cpp.o:
-	$(CXX) $(CFLAGS) -c $< -o $(patsubst %.cpp,%.o,$<)
+	$(CXX) $(CXXFLAGS) -c $< -o $(patsubst %.cpp,%.o,$<)
 
 # wget http://ftp.sunet.se/pub/gnu/gmp/gmp-4.2.2.tar.gz
 # tar -xzvf gmp-4.2.2.tar.gz
