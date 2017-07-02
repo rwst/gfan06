@@ -2,7 +2,9 @@
 #include <stdio.h>
 #include <string.h>
 #include <cstdio> /* Always include cstdio before gmp.h.*/
+#include <cstddef>
 #include <gmp.h>
+
 #include <assert.h>
 
 #define NBUCKETSGMP 9

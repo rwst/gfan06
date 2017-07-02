@@ -3,6 +3,7 @@
 
 #include <vector>
 #include <cstdio> /* Always include cstdio before gmp.h.*/
+#include <cstddef>
 #include <gmp.h> //remove?
 #include "vektor.h"
 #include "field.h"

@@ -14,6 +14,7 @@
 #endif
 
 #include <cstdio> /* Always include cstdio before gmp.h.*/
+#include <cstddef>
 #include <gmp.h>  //SHOULD BE REMOVED
 
 /** A FieldElement is an element of a Field in the algebraic sense. A

@@ -4,6 +4,7 @@
 #include "lp.h"
 
 #include <cstdio> /* Always include cstdio before gmp.h.*/
+#include <cstddef>
 #include <gmp.h>  //SHOULD BE REMOVED
 
 IntegerVector arrayToIntegerVector(mpq_t *point, int n);
