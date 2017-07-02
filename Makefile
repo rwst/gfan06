@@ -22,18 +22,6 @@ STACTDUMP_OPTIONS = -DSTACKDUMP_ENABLED -D__assert_fail=__assert_fail2
 endif
 
 
-ifeq ($(sagepath),)
-SAGE_LINKOPTIONS = 
-SAGE_INCLUDEOPTIONS =
-else
-SAGE_LINKOPTIONS = -L$(sagepath)/ -lpython2.6 -lcsage -lsingular
-SAGE_INCLUDEOPTIONS = -I $(sagepath)/
-SAGE_OBJECTS = sage.o sage_link.so
-
-sage_link.so: sage_link.pyx setup.py
-	python setup.py build_ext --inplace --pyrex-include-dirs=$(SAGE_ROOT)/devel/sage/
-endif
-
 ifeq ($(gmppath),)
 GMP_LINKOPTIONS = -lgmp
 GMP_INCLUDEOPTIONS =
@@ -70,35 +58,6 @@ SOPLEX_INCLUDEOPTIONS = -I $(SOPLEX_PATH)/src
 SOPLEX_OBJECTS = lp_soplexcdd.o
 endif
 
-
-# rememember to adjust USEFACTORY in field_rationalfunctions2
-ifeq ($(singular),)
-ifeq ($(factory),)
-SINGULAR_PATH =
-SINGULAR_LINKOPTIONS =
-SINGULAR_INCLUDEOPTIONS =
-SINGULAR_OBJECTS = src/polynomialgcd.o 
-else
-SINGULAR_PATH =
-SINGULAR_LINKOPTIONS = -lcf -lcfmem
-SINGULAR_INCLUDEOPTIONS = -I /usr/local/include/factory/
-SINGULAR_OBJECTS = src/polynomialgcd.o src/ftmpl_inst.o
-endif
-else
-#SINGULAR_PATH = $(HOME)/math/software/Singular-3-1-0
-#SINGULAR_LINKOPTIONS =  -L$(SINGULAR_PATH)/Singular -lsingular -lncurses -lreadline
-#SINGULAR_INCLUDEOPTIONS = -I $(SINGULAR_PATH)/kernel -I $(SINGULAR_PATH)/omalloc
-#SINGULAR_OBJECTS = src/singular.o src/singularconversion.o
-SINGULAR_PATH = $(HOME)/math/software/Singular-svn/trunk/x86_64-Linux
-SINGULAR_LINKOPTIONS =  -L$(SINGULAR_PATH)/lib -lsingular -lncurses -lreadline  -lcf -lcfmem
-SINGULAR_INCLUDEOPTIONS = -I $(SINGULAR_PATH)/include -I $(SINGULAR_PATH)/include/omalloc
-SINGULAR_OBJECTS = src/ftmpl_inst.o src/singular.o src/singularconversion.o
-#Run the following line before running gfan
-#export LD_LIBRARY_PATH="/home/anders/math/software/Singular-svn/trunk/x86_64-Linux/lib/:${LD_LIBRARY_PATH}"
-endif
-
-# To produce factory templates:
-#g++ -c /home/anders/math/software/factory-3-1-7/ftmpl_inst.cc  -fno-implicit-templates -I /usr/local/include/factory/ -I/home/anders/math/software/factory-3-1-7/ -O2 -fomit-frame-pointer -o ftmpl_inst.o
 
 ADDITIONALLINKOPTIONS = $(CDD_LINKOPTIONS) $(GMP_LINKOPTIONS) $(SOPLEX_LINKOPTIONS) $(SINGULAR_LINKOPTIONS) $(SAGE_LINKOPTIONS) 
 ADDITIONALINCLUDEOPTIONS = $(CDD_INCLUDEOPTIONS) $(GMP_INCLUDEOPTIONS) $(SOPLEX_INCLUDEOPTIONS) $(SINGULAR_INCLUDEOPTIONS) $(SAGE_INCLUDEOPTIONS)
