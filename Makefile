@@ -85,6 +85,8 @@ OPTFLAGS    =  -DGMPRATIONAL -Wuninitialized -fno-omit-frame-pointer -O2	 #-O3 -
 CFLAGS	  := $(CFLAGS) $(OPTFLAGS) $(GPROFFLAG) $(ADDITIONALINCLUDEOPTIONS) #-pedantic
 CXXFLAGS  := $(CXXFLAGS) $(OPTFLAGS) $(GPROFFLAG) $(ADDITIONALINCLUDEOPTIONS) #-pedantic
 
+SINGULAR_OBJECTS = src/polynomialgcd.o
+
 CATSOBJECTS =	lp_cdd.o \
 		parser.o \
 		field.o \
@@ -358,7 +360,6 @@ src/symmetrictraversal.o: src/symmetrictraversal.cpp
 
 OBJECTS = 	$(addprefix src/,$(SOPLEX_OBJECTS)) \
 		$(SINGULAR_OBJECTS) \
-		$(SAGE_OBJECTS) \
 		$(addprefix src/,$(CATSOBJECTS)) \
 		$(addprefix src/,$(APPOBJECTS)) \
 		src/symmetrictraversal.o
